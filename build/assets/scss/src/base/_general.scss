@@ -1,2 +1,15 @@
+body {
+	font-weight: 400;
+}
 
+.halftone-wrapper {
+	position: absolute;
+	top: -3rem;
+	left: -3rem;
+	width: 400px;
+	height: 400px;
 
+	.halftone {
+		background-blend-mode: multiply;
+	}
+}

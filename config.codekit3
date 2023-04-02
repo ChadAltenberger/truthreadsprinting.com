@@ -7,7 +7,7 @@
       "uuidString" : "6B737F6C-CD28-43A0-97F0-4038BFAD4133"
     }
   ],
-  "creatorBuild" : "34418",
+  "creatorBuild" : "34472",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -86,6 +86,123 @@
       "oA" : 2,
       "oAP" : "\/app\/assets\/fonts\/fa-brands-400.woff2",
       "oF" : 0
+    },
+    "\/build\/assets\/img\/halftone.png" : {
+      "ft" : 32768,
+      "iS" : 70090,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/halftone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/hero-bg-lg.jpg" : {
+      "ft" : 16384,
+      "iS" : 92174,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/hero-bg-lg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/hero-bg-lg@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 382256,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/hero-bg-lg@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/hero-bg-md.jpg" : {
+      "ft" : 16384,
+      "iS" : 91555,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/hero-bg-md.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/hero-bg-md@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 427157,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/hero-bg-md@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/hero-bg-xl.jpg" : {
+      "ft" : 16384,
+      "iS" : 610216,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/hero-bg-xl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/hero-bg-xl@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 880763,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/hero-bg-xl@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/Light-Halftone-Screen-Medium.png" : {
+      "ft" : 32768,
+      "iS" : 95516,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/Light-Halftone-Screen-Medium.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/light-halftone.png" : {
+      "ft" : 32768,
+      "iS" : 232843,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/light-halftone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
     },
     "\/build\/assets\/img\/sam-flag.svg" : {
       "ft" : 2097152,
@@ -15483,6 +15600,21 @@
       "oAP" : "\/app\/assets\/scss\/src\/base\/.sass-cache\/3b3fcf5cd718f685ddfc49658f1e15395e49b470\/buttons.scssc-e",
       "oF" : 1
     },
+    "\/build\/assets\/scss\/src\/components\/_buttons.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/assets\/scss\/src\/css\/_buttons.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/build\/assets\/scss\/src\/components\/_eh-elements.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -15687,7 +15819,7 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/app\/node_modules",
-      "oF" : 1
+      "oF" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -15737,7 +15869,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702130633.05659103
+    "lastBuiltDate" : 702135833.20061195
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -16253,6 +16385,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "1"
@@ -16413,6 +16549,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -16444,7 +16583,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -16550,6 +16690,9 @@
         "active" : 0
       },
       "no-new-func" : {
+        "active" : 0
+      },
+      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-object" : {
@@ -17292,6 +17435,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : ".vscode,\/storage\/framework\/sessions,partials,node_modules,_logs,logs,log,lib,.gitignore,_cache,cache",
     "sourceFolderName" : "build",
     "susyVersion" : 3,
@@ -17366,7 +17510,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,

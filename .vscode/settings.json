@@ -29,12 +29,12 @@
 		"!Split sequence"
 	],
 	"workbench.colorCustomizations": {
-		"titleBar.activeBackground": "#582c83", // Top window bar
-		"titleBar.inactiveBackground": "#582c8399", // Top window bar inactive (add '99' to end of hex)
-		"titleBar.activeForeground": "#ffffff", // Top window bar - text
+		"titleBar.activeBackground": "#333333", // Top window bar
+		"titleBar.inactiveBackground": "#33333399", // Top window bar inactive (add '99' to end of hex)
+		"titleBar.activeForeground": "#F06239", // Top window bar - text
 
-		"activityBarBadge.background": "#582c83", // Side bar - badge icon background
-		"activityBarBadge.foreground": "#ffffff", // Side bar - badge text
-		"activityBar.activeBorder": "#582c83" // Side bar - active indicator border
+		"activityBarBadge.background": "#333333", // Side bar - badge icon background
+		"activityBarBadge.foreground": "#F06239", // Side bar - badge text
+		"activityBar.activeBorder": "#F06239" // Side bar - active indicator border
 	}
 }

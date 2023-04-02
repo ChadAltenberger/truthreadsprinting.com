@@ -90,7 +90,7 @@
 // 'src/base/mixins';
 // 'src/base/helpers';
 @import "src/base/general";
-@import "src/base/fontface";
+// @import "src/base/fontface";
 @import "src/base/typography";
 
 /* ======================= LAYOUT ======================= */
@@ -99,6 +99,7 @@
 
 /* ===================== COMPONENTS ===================== */
 @import "src/components/logos";
+@import "src/components/buttons";
 // @import "src/components/eh-elements";
 // @import "src/components/sticky-sides";
 
