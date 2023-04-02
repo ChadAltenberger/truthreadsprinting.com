@@ -1,0 +1,89 @@
+.sticky-side-left,
+.sticky-side-right {
+    /* ****************************************************** */
+    /*                           UP                           */
+    /* ****************************************************** */
+    &.sticky-side-sm {
+        @media #{$sm-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-md {
+        @media #{$md-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-lg {
+        @media #{$lg-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xl {
+        @media #{$xl-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl {
+        @media #{$xxl-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl2 {
+        @media #{$xxl2-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl3 {
+        @media #{$xxl3-up} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl4 {
+        @media #{$xxl4-up} {
+            position: absolute;
+        }
+    }
+    /* ****************************************************** */
+    /*                          DOWN                          */
+    /* ****************************************************** */
+    &.sticky-side-sm {
+        @media #{$sm-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-md {
+        @media #{$md-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-lg {
+        @media #{$lg-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xl {
+        @media #{$xl-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl {
+        @media #{$xxl-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl2 {
+        @media #{$xxl2-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl3 {
+        @media #{$xxl3-down} {
+            position: absolute;
+        }
+    }
+    &.sticky-side-xxl4 {
+        @media #{$xxl4-down} {
+            position: absolute;
+        }
+    }
+}

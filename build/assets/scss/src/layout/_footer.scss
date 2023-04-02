@@ -1,0 +1,76 @@
+footer {
+    ul.social-links {
+        li {
+            height: 24px;
+            width: 24px;
+
+            margin-left: 20px;
+            display: inline-block;
+
+            &:first-of-type {
+                margin-left: 0px;
+            }
+
+            .facebook,
+            .twitter,
+            .instagram,
+            .youtube {
+
+                img,
+                svg {
+                    transform: scale(1);
+
+                    transition: ease 0.3s all;
+
+                    height: 24px;
+                    width: 24px;
+                }
+
+                &:hover {
+
+                    img,
+                    svg {
+                        transform: scale(1.25);
+                    }
+                }
+            }
+
+            .facebook {
+                .st0 {
+                    fill: $primary;
+                }
+
+                .st1 {
+                    fill: $white;
+                }
+            }
+
+            .youtube {
+                .cls-1 {
+                    fill: $primary;
+                }
+            }
+
+            .twitter,
+            .instagram {
+                .st0 {
+                    fill: $primary;
+                }
+            }
+        }
+    }
+
+    // SAM flag
+    #sam-flag {
+        position: relative;
+        top: -2px;
+        margin: 0 2px;
+
+        height: 30px;
+        width: 21px;
+
+        .cls-1 {
+            fill: $primary;
+        }
+    }
+}

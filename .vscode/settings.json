@@ -1,0 +1,40 @@
+{
+	"yaml.customTags": [
+		"!And",
+		"!And sequence",
+		"!If",
+		"!If sequence",
+		"!Not",
+		"!Not sequence",
+		"!Equals",
+		"!Equals sequence",
+		"!Or",
+		"!Or sequence",
+		"!FindInMap",
+		"!FindInMap sequence",
+		"!Base64",
+		"!Join",
+		"!Join sequence",
+		"!Cidr",
+		"!Ref",
+		"!Sub",
+		"!Sub sequence",
+		"!GetAtt",
+		"!GetAZs",
+		"!ImportValue",
+		"!ImportValue sequence",
+		"!Select",
+		"!Select sequence",
+		"!Split",
+		"!Split sequence"
+	],
+	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#582c83", // Top window bar
+		"titleBar.inactiveBackground": "#582c8399", // Top window bar inactive (add '99' to end of hex)
+		"titleBar.activeForeground": "#ffffff", // Top window bar - text
+
+		"activityBarBadge.background": "#582c83", // Side bar - badge icon background
+		"activityBarBadge.foreground": "#ffffff", // Side bar - badge text
+		"activityBar.activeBorder": "#582c83" // Side bar - active indicator border
+	}
+}
