@@ -237,6 +237,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/build\/assets\/img\/texture-xl@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 640688,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/texture-xl@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/build\/assets\/js\/main.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -341,7 +354,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/app\/assets\/js\/src\/js\/index.js",
       "oF" : 0,
       "sC" : 3,
@@ -15840,7 +15853,7 @@
     },
     "\/node_modules" : {
       "ft" : 65536,
-      "oA" : 1,
+      "oA" : 2,
       "oAP" : "\/app\/node_modules",
       "oF" : 0
     },
@@ -15892,7 +15905,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702135833.20061195
+    "lastBuiltDate" : 702254819.28047097
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

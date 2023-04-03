@@ -70,4 +70,4 @@
 //  "src/components/sticky-sides.js";
 
 /* ==================== PAGE SPECIFIC =================== */
-//  "src/pages/index.js";
+// @codekit-prepend "src/pages/index.js";

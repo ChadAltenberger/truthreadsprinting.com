@@ -1,112 +1,147 @@
 #mainIndex {
-	#hero {
-		height: 90vh;
-		position: relative;
-		background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
-		z-index: 0;
+    #hero {
+        height: 90vh;
+        position: relative;
+        background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
+        z-index: 0;
 
-		@media #{$retina} {
-			background: url(../img/hero-bg-md@2x.jpg) no-repeat center center / cover;
-		}
+        @media #{$retina} {
+            background: url(../img/hero-bg-md@2x.jpg) no-repeat center center / cover;
+        }
 
-		@media #{$lg-up} {
-			background: url(../img/hero-bg-lg.jpg) no-repeat center center / cover;
+        @media #{$lg-up} {
+            background: url(../img/hero-bg-lg.jpg) no-repeat center center / cover;
 
-			@media #{$retina} {
-				background: url(../img/hero-bg-lg@2x.jpg) no-repeat center center / cover;
-			}
-		}
-		@media #{$xl-up} {
-			background: url(../img/hero-bg-xl.jpg) no-repeat center center / cover;
+            @media #{$retina} {
+                background: url(../img/hero-bg-lg@2x.jpg) no-repeat center center / cover;
+            }
+        }
+        @media #{$xl-up} {
+            background: url(../img/hero-bg-xl.jpg) no-repeat center center / cover;
 
-			@media #{$retina} {
-				background: url(../img/hero-bg-xl@2x.jpg) no-repeat center center / cover;
-			}
-		}
+            @media #{$retina} {
+                background: url(../img/hero-bg-xl@2x.jpg) no-repeat center center / cover;
+            }
+        }
 
-		// Overlay
-		&::before {
-			position: absolute;
-			content: "";
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: rgba($color: #000000, $alpha: 0.5);
-		}
+        // Hero image overlay
+        &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+        }
 
-		&::after {
-			position: absolute;
-			content: "";
-			bottom: 6rem;
-			left: 0;
-			width: 80vw;
-			height: 1px;
-			background-color: $secondary;
-			z-index: 0;
-		}
+        // Bottom horizontal line
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 6rem;
+            left: 0;
+            width: 80vw;
+            height: 1px;
+            background-color: $secondary;
+            z-index: 0;
 
-		.container {
-			position: relative;
-			z-index: 1;
+            @media #{$xl-up} {
+                bottom: 8rem;
+            }
+        }
 
-			h1 {
-				line-height: 0.8;
-			}
+        .container {
+            position: relative;
+            z-index: 1;
 
-			#titleLockup {
-				position: relative;
-				margin-top: -15%;
+            h1 {
+                line-height: 0.8;
+            }
 
-				&::before {
-					position: absolute;
-					content: "";
-					top: -3rem;
-					left: 0;
-					width: 1px;
-					height: 90vh;
-					background-color: $secondary;
-					z-index: 0;
-				}
+            #titleLockup {
+                position: relative;
+                margin-top: -15%;
 
-				&::after {
-					position: absolute;
-					content: "";
-					top: -3.7rem;
-					left: 0;
-					width: 1px;
-					height: 1.5rem;
-					background-color: $secondary;
-					transform: rotate(45deg);
-					z-index: 0;
-				}
-			}
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: -3rem;
+                    left: 0;
+                    width: 1px;
+                    height: 90vh;
+                    background-color: $secondary;
+                    z-index: 0;
+                }
 
-			#servicesList {
-				margin-top: 20%;
-			}
-		}
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: -3.7rem;
+                    left: 0;
+                    width: 1px;
+                    height: 1.5rem;
+                    background-color: $secondary;
+                    transform: rotate(45deg);
+                    z-index: 0;
+                }
+            }
 
-		#smallBlur {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 8rem;
-			height: 6rem;
-			backdrop-filter: blur(8px);
-		}
+            #servicesList {
+                margin-top: 20%;
+            }
+        }
 
-		#bigBlur {
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			width: 50%;
-			height: 75%;
-			backdrop-filter: blur(8px);
-		}
-	}
+        #smallBlur {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 6rem;
+            // width: 8rem;
+            // backdrop-filter: blur(8px);
 
-	#values {
-		height: 500px;
-	}
+            @media #{$xl-up} {
+                height: 8rem;
+            }
+        }
+
+        #bigBlur {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            height: 75%;
+            backdrop-filter: blur(8px);
+        }
+    }
+
+    #values {
+        height: 500px;
+        position: relative;
+
+        background: url(../img/texture-xl@2x.jpg) no-repeat center center / cover;
+        background-blend-mode: difference;
+
+        // img {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     mix-blend-mode: difference;
+        //     opacity: 0.65;
+        //     z-index: -1;
+        // }
+
+        // Gray block on right
+        &::before {
+            position: absolute;
+            content: "";
+            top: -4rem;
+            right: 0;
+            width: 14rem;
+            height: 60vh;
+            background-color: $gray;
+            z-index: 0;
+        }
+    }
 }
