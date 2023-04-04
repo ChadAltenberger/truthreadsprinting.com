@@ -41,13 +41,13 @@
             content: "";
             bottom: 6rem;
             left: 0;
-            width: 80vw;
+            width: 75vw;
             height: 1px;
             background-color: $secondary;
             z-index: 0;
 
             @media #{$xl-up} {
-                bottom: 8rem;
+                bottom: 10rem;
             }
         }
 
@@ -101,7 +101,7 @@
             // backdrop-filter: blur(8px);
 
             @media #{$xl-up} {
-                height: 8rem;
+                height: 10rem;
             }
         }
 
@@ -119,21 +119,34 @@
         height: 500px;
         position: relative;
 
-        background: url(../img/texture-xl@2x.jpg) no-repeat center center / cover;
-        mix-blend-mode: difference;
+        &::before {
+            position: absolute;
+            content: "VALUES";
+            font-weight: 600;
+            color: $gray;
+            top: 0;
+            left: -2rem;
+            width: 100%;
+            font-size: 24rem;
+            opacity: 0.5;
+            z-index: 0;
+            line-height: 1;
+        }
 
-        // img {
-        //     position: absolute;
-        //     top: 0;
-        //     left: 0;
-        //     width: 100%;
-        //     mix-blend-mode: difference;
-        //     opacity: 0.65;
-        //     z-index: -1;
-        // }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: inherit;
+            mix-blend-mode: difference;
+            opacity: 0.65;
+            z-index: -1;
+            object-fit: cover;
+        }
 
         // Gray block on right
-        &::before {
+        &::after {
             position: absolute;
             content: "";
             top: -4rem;
@@ -141,7 +154,7 @@
             width: 14rem;
             height: 60vh;
             background-color: $gray;
-            z-index: 0;
+            z-index: 1;
         }
     }
 }
