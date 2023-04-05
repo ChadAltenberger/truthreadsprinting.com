@@ -45,48 +45,6 @@
       "oAP" : "\/app\/assets\/fonts\/bootstrap-icons.woff2",
       "oF" : 0
     },
-    "\/build\/assets\/fonts\/fa-brands-400.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/app\/assets\/fonts\/fa-brands-400.eot",
-      "oF" : 0
-    },
-    "\/build\/assets\/fonts\/fa-brands-400.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/app\/assets\/fonts\/fa-brands-400.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/build\/assets\/fonts\/fa-brands-400.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/app\/assets\/fonts\/fa-brands-400.ttf",
-      "oF" : 0
-    },
-    "\/build\/assets\/fonts\/fa-brands-400.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/app\/assets\/fonts\/fa-brands-400.woff",
-      "oF" : 0
-    },
-    "\/build\/assets\/fonts\/fa-brands-400.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/app\/assets\/fonts\/fa-brands-400.woff2",
-      "oF" : 0
-    },
     "\/build\/assets\/img\/halftone-new.png" : {
       "ft" : 32768,
       "iS" : 296267,
@@ -15905,7 +15863,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702254819.28047097
+    "lastBuiltDate" : 702389129.46143699
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

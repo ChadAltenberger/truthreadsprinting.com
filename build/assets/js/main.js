@@ -22,12 +22,6 @@
 // "../../../node_modules/bootstrap/js/src/toast.js";
 // "../../../node_modules/bootstrap/js/src/tooltip.js";
 
-// Bootstrap Table
-// "../../../node_modules/bootstrap-table/dist/bootstrap-table.min.js";
-
-// Papa Parse
-// "../../../node_modules/papaparse/papaparse.min.js";
-
 // scrollpos-styler js
 // "../../../node_modules/scrollpos-styler/scrollPosStyler.js";
 
@@ -49,14 +43,6 @@
 
 // rellax js
 // "../../../node_modules/rellax/rellax.min.js";
-
-// Youtube Playlist Video Player
-// "../lib/youtube-video-player/js/youtube-video-player.jquery.min.js";
-// "../lib/youtube-video-player/packages/perfect-scrollbar/jquery.mousewheel.js";
-// "../lib/youtube-video-player/packages/perfect-scrollbar/perfect-scrollbar.js";
-
-// Animated Intro Section
-// "../lib/animated-intro-section/js/main.js";
 
 // @codekit-prepend "src/base/ie10-viewport-bug-workaround.js";
 

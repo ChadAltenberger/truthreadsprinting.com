@@ -119,6 +119,7 @@
         height: 500px;
         position: relative;
 
+        // VALUES
         &::before {
             position: absolute;
             content: "VALUES";
@@ -133,7 +134,8 @@
             line-height: 1;
         }
 
-        img {
+        // BG Texture
+        img.texture {
             position: absolute;
             top: 0;
             left: 0;
@@ -155,6 +157,17 @@
             height: 60vh;
             background-color: $gray;
             z-index: 1;
+        }
+
+        .card {
+            position: relative;
+            clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+
+            .halftone {
+                position: absolute;
+                top: -1rem;
+                left: -1rem;
+            }
         }
     }
 }

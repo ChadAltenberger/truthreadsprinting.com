@@ -55,19 +55,8 @@
 @import "../../../../node_modules/bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
 
-// Font Awesome 5
-// Change path for the icons to work in the font awesome variables.scss file
-// Should be: $fa-font-path: "../../assets/fonts" !default;
-@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-@import "../../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-
 // Bootstrap Icons
 @import "../../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
-
-// Bootstrap Table
-// @import '../../../../node_modules/bootstrap-table/dist/bootstrap-table.min.css';
 
 // Slick slider
 // @import '../../../../node_modules/slick-slider/slick/slick.scss';
@@ -77,14 +66,6 @@
 
 // AOS animation - will need to update if we update the npm package to a new version
 // @import 'src/npm/aos.scss';
-
-// Youtube Playlist Video Player
-// '../lib/youtube-video-player/scss/_youtube-video-player.scss';
-// '../lib/youtube-video-player/packages/icons/css/_icons.scss';
-// '../lib/youtube-video-player/packages/perfect-scrollbar/_perfect-scrollbar.scss';
-
-// Animated Intro Section
-// @import '../lib/animated-intro-section/scss/style.scss';
 
 /* ======================== BASE ======================== */
 // 'src/base/mixins';

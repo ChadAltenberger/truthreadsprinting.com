@@ -1,0 +1,5 @@
+section:not(#hero) {
+    > .container {
+        padding: 6rem 0;
+    }
+}

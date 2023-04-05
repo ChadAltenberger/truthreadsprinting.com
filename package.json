@@ -14,13 +14,10 @@
   "repository": {},
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
-    "@fortawesome/fontawesome-free": "^5.15.2",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.9.1",
-    "bootstrap-table": "^1.20.2",
     "jquery": "^3.5.1",
-    "papaparse": "^5.3.2",
     "popper.js": "^1.15.0",
     "rellax": "^1.12.1",
     "scrollpos-styler": "^0.7.1",
