@@ -63,7 +63,21 @@
                 position: relative;
                 margin-top: -15%;
 
+                // Orange slash above title
                 &::before {
+                    position: absolute;
+                    content: "";
+                    top: -3.7rem;
+                    left: 0;
+                    width: 1.5px;
+                    height: 1.5rem;
+                    background-color: $secondary;
+                    transform: rotate(45deg);
+                    z-index: 0;
+                }
+
+                // Orange line extending down from slash
+                &::after {
                     position: absolute;
                     content: "";
                     top: -3rem;
@@ -71,18 +85,6 @@
                     width: 1px;
                     height: 90vh;
                     background-color: $secondary;
-                    z-index: 0;
-                }
-
-                &::after {
-                    position: absolute;
-                    content: "";
-                    top: -3.7rem;
-                    left: 0;
-                    width: 1px;
-                    height: 1.5rem;
-                    background-color: $secondary;
-                    transform: rotate(45deg);
                     z-index: 0;
                 }
             }
@@ -189,18 +191,34 @@
                 &#qualityCard {
                     transform: translateY(45%);
                 }
-
-                .corner-slash {
-                    position: absolute;
-                    bottom: 1.5rem;
-                    right: -1rem;
-                    width: 6rem;
-                    height: 2px;
-                    transform: rotate(-45deg);
-                    background-color: $secondary;
-                    z-index: 1;
-                }
             }
+        }
+    }
+
+    #ourStory {
+        position: relative;
+        padding-bottom: 15rem;
+
+        .screens-img-wrapper {
+            &::before {
+                position: absolute;
+                content: "";
+                bottom: 0;
+                left: 0;
+                width: 90vw;
+                height: 2px;
+                background-color: $white;
+                z-index: 0;
+            }
+
+            .screens-img {
+                margin-top: -30rem;
+            }
+        }
+
+        #aboutBox {
+            position: relative;
+            margin-top: 14rem;
         }
     }
 }

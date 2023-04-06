@@ -205,6 +205,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/build\/assets\/img\/screens-xl.png" : {
+      "ft" : 32768,
+      "iS" : 3135443,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/screens-xl.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/build\/assets\/img\/texture-xl@2x.jpg" : {
       "ft" : 16384,
       "iS" : 640688,
@@ -313,7 +326,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/app\/assets\/js\/src\/js\/sticky-sides.js",
       "oF" : 0,
       "sC" : 3,

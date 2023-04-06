@@ -11,10 +11,25 @@ body {
     opacity: 0.8;
 }
 
+.corner-slash {
+    position: absolute;
+    bottom: 1.5rem;
+    right: -1rem;
+    width: 6rem;
+    height: 2px;
+    transform: rotate(-45deg);
+    background-color: $secondary;
+    z-index: 1;
+}
+
 .text-tertiary {
     color: $tertiary;
 }
 
 .bg-texture {
     background: url(../img/texture-xl@2x.jpg) no-repeat center center / cover;
+}
+
+.bg-opaque {
+    background-color: rgba($color: $white, $alpha: 0.2);
 }

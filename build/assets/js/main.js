@@ -53,7 +53,7 @@
 // @codekit-prepend "src/components/trigger-popup.js";
 // @codekit-prepend "src/components/current-year.js";
 //  "src/components/eh-elements.js";
-//  "src/components/sticky-sides.js";
+// @codekit-prepend "src/components/sticky-sides.js";
 
 /* ==================== PAGE SPECIFIC =================== */
 // @codekit-prepend "src/pages/index.js";
