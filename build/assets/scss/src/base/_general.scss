@@ -1,5 +1,7 @@
-body {
+body,
+html {
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 .halftone-wrapper {
@@ -24,6 +26,10 @@ body {
 
 .text-tertiary {
     color: $tertiary;
+}
+
+.bg-gray {
+    background-color: $gray;
 }
 
 .bg-texture {

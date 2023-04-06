@@ -156,7 +156,7 @@
             top: -4rem;
             right: 0;
             width: 14rem;
-            height: 60vh;
+            height: 70vh;
             background-color: $gray;
             z-index: 0;
         }
@@ -219,6 +219,54 @@
         #aboutBox {
             position: relative;
             margin-top: 14rem;
+
+            .corner-slash {
+                right: -1.5rem;
+            }
+        }
+    }
+
+    #services {
+        position: relative;
+
+        .gray-box {
+            position: absolute;
+            top: -8rem;
+            left: 0;
+            width: 28rem;
+            height: 20rem;
+
+            .halftone {
+                position: absolute;
+                top: 2rem;
+                right: -3rem;
+                width: 75%;
+                height: auto;
+            }
+        }
+    }
+
+    #featured {
+        position: relative;
+
+        // FEATURED
+        &::before {
+            position: absolute;
+            content: "FEATURED";
+            font-weight: 600;
+            color: $gray;
+            top: 0;
+            right: -2rem;
+            width: 100%;
+            font-size: 23rem;
+            opacity: 0.5;
+            z-index: 0;
+            line-height: 1;
+        }
+
+        > .container {
+            position: relative;
+            z-index: 1;
         }
     }
 }
