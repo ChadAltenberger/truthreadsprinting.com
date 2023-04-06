@@ -45,6 +45,16 @@
       "oAP" : "\/app\/assets\/fonts\/bootstrap-icons.woff2",
       "oF" : 0
     },
+    "\/build\/assets\/img\/creativity.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/creativity.svg",
+      "oF" : 0,
+      "opt" : 1,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
     "\/build\/assets\/img\/halftone-new.png" : {
       "ft" : 32768,
       "iS" : 296267,
@@ -15863,7 +15873,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702389129.46143699
+    "lastBuiltDate" : 702434467.906932
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
