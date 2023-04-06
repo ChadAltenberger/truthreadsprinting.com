@@ -218,6 +218,19 @@
       "q" : 80,
       "rq" : 75
     },
+    "\/build\/assets\/img\/texture.jpg" : {
+      "ft" : 16384,
+      "iS" : 52314,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/texture.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/build\/assets\/js\/main.js" : {
       "bF" : 0,
       "ft" : 64,

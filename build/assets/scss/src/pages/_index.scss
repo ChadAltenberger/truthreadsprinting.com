@@ -167,9 +167,9 @@
 
                 .halftone {
                     position: absolute;
-                    top: -2rem;
-                    left: -2rem;
-                    width: 100%;
+                    top: -2.5rem;
+                    left: -2.5rem;
+                    width: 98%;
                     height: auto;
                     opacity: 0.25;
                     z-index: 1;
@@ -178,9 +178,15 @@
                 .card {
                     clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
 
+                    max-width: 22rem;
+
                     .creativity-icon {
                         width: 5rem;
                     }
+                }
+
+                &#qualityCard {
+                    transform: translateY(45%);
                 }
             }
         }

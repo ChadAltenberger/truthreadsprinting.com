@@ -14,3 +14,7 @@ body {
 .text-tertiary {
     color: $tertiary;
 }
+
+.bg-texture {
+    background: url(../img/texture.jpg) repeat center center / 500px 500px;
+}
