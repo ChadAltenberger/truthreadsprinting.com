@@ -61,8 +61,8 @@
 // Slick slider
 // @import '../../../../node_modules/slick-slider/slick/slick.scss';
 
-// Fancybox - will need to update if we update the npm package to a new version
-// @import 'src/npm/jquery.fancybox.min.scss';
+// Fancybox
+@import "../../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css";
 
 // AOS animation - will need to update if we update the npm package to a new version
 // @import 'src/npm/aos.scss';
@@ -81,6 +81,7 @@
 /* ===================== COMPONENTS ===================== */
 @import "src/components/logos";
 @import "src/components/buttons";
+@import "src/components/gallery";
 // @import "src/components/eh-elements";
 @import "src/components/sticky-sides";
 

@@ -55,6 +55,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/build\/assets\/img\/featured1.jpg" : {
+      "ft" : 16384,
+      "iS" : 36855,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/featured1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/build\/assets\/img\/halftone-new.png" : {
       "ft" : 32768,
       "iS" : 296267,
@@ -15660,6 +15673,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/build\/assets\/scss\/src\/components\/_gallery.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/app\/assets\/scss\/src\/css\/_gallery.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/build\/assets\/scss\/src\/components\/_logos.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -17450,7 +17478,7 @@
       "removeKeyframes" : 0,
       "removeVariables" : 0,
       "safelistEntries" : [
-
+        "fancybox-thumbs__list"
       ],
       "skippedEntries" : [
 

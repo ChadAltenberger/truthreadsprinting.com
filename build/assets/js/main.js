@@ -41,6 +41,9 @@
 // "../../../node_modules/aos/dist/aos.js";
 // AOS.init();
 
+// Fancybox
+// @codekit-prepend "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js";
+
 // rellax js
 // "../../../node_modules/rellax/rellax.min.js";
 
