@@ -1,4 +1,7 @@
 #mainIndex {
+    /* ****************************************************** */
+    /*                          HERO                          */
+    /* ****************************************************** */
     #hero {
         height: 90vh;
         position: relative;
@@ -117,6 +120,9 @@
         }
     }
 
+    /* ****************************************************** */
+    /*                         VALUES                         */
+    /* ****************************************************** */
     #values {
         position: relative;
         padding-bottom: 30rem;
@@ -195,6 +201,9 @@
         }
     }
 
+    /* ****************************************************** */
+    /*                        OUR STORY                       */
+    /* ****************************************************** */
     #ourStory {
         position: relative;
         padding-bottom: 15rem;
@@ -226,6 +235,9 @@
         }
     }
 
+    /* ****************************************************** */
+    /*                        SERVICES                        */
+    /* ****************************************************** */
     #services {
         position: relative;
 
@@ -244,10 +256,108 @@
                 height: auto;
             }
         }
+
+        #servicesCarousel {
+            #carouselWrapper {
+                position: relative;
+
+                &::before,
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 5.5rem;
+                    height: 2px;
+                    background-color: $secondary;
+                    transform: rotate(45deg);
+                    z-index: 2;
+                }
+
+                &:before {
+                    bottom: 1.2rem;
+                    left: -1.5rem;
+                }
+                &:after {
+                    top: 1.2rem;
+                    right: -1.5rem;
+                }
+
+                .carousel-inner {
+                    position: relative;
+
+                    &::before,
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 5rem;
+                        height: 5rem;
+                        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                        background: url(../img/texture-tile.jpg) no-repeat center center / 250px 250px;
+                        z-index: 1;
+                    }
+
+                    &:before {
+                        bottom: -2.5rem;
+                        left: -2.5rem;
+                    }
+                    &:after {
+                        top: -2.5rem;
+                        right: -2.5rem;
+                    }
+                }
+            }
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: fit-content;
+                height: fit-content;
+                clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+
+                top: 50%;
+                transform: translateY(-50%);
+                padding: 1.5rem 0.5rem;
+                background-color: $secondary;
+                opacity: 1;
+                transition: background-color 0.2s;
+
+                &:hover {
+                    background-color: lighten($secondary, 4%);
+                }
+            }
+
+            .carousel-control-prev {
+                left: -1.5rem;
+            }
+            .carousel-control-next {
+                right: -1.5rem;
+            }
+
+            .carousel-indicators {
+                margin: 0;
+                bottom: -1.5rem;
+
+                button {
+                    width: 75px;
+                    height: 5px;
+                    margin: 0 1.5rem;
+                    border: 1px solid $secondary;
+                    background-color: transparent;
+                    opacity: 1;
+                    transition: background-color 0.2s;
+
+                    &.active {
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
     }
 
+    /* ****************************************************** */
+    /*                        FEATURED                        */
+    /* ****************************************************** */
     #featured {
         position: relative;
+
+        padding-bottom: 20rem;
 
         // FEATURED
         &::before {
@@ -255,7 +365,7 @@
             content: "FEATURED";
             font-weight: 600;
             color: $gray;
-            top: 0;
+            top: -3rem;
             right: -2rem;
             width: 100%;
             font-size: 23rem;
@@ -267,6 +377,10 @@
         > .container {
             position: relative;
             z-index: 1;
+
+            .btn-secondary {
+                padding: 0.75rem 1.5rem;
+            }
         }
     }
 }

@@ -42,7 +42,7 @@
 // AOS.init();
 
 // Fancybox
-// @codekit-prepend "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js";
+// @codekit-prepend "../../../node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js";
 
 // rellax js
 // "../../../node_modules/rellax/rellax.min.js";

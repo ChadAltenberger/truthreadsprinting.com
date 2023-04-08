@@ -13,7 +13,7 @@
   "license": "UNLICENSED",
   "repository": {},
   "dependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^5.0.15",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.9.1",

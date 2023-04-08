@@ -1,4 +1,10 @@
 #error {
     background-repeat: repeat;
     height: 100vh;
+
+    .btn-wrapper {
+        .btn-secondary {
+            padding: 1rem 1.1rem;
+        }
+    }
 }

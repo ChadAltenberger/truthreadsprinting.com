@@ -231,6 +231,32 @@
       "q" : 80,
       "rq" : 75
     },
+    "\/build\/assets\/img\/texture-corner.jpg" : {
+      "ft" : 16384,
+      "iS" : 2969,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/texture-corner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/texture-tile.jpg" : {
+      "ft" : 16384,
+      "iS" : 4018,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/texture-tile.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/build\/assets\/img\/texture-xl@2x.jpg" : {
       "ft" : 16384,
       "iS" : 640688,

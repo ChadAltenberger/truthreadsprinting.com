@@ -126,10 +126,7 @@ $utilities: map-merge(
                 (
                     values:
                         map-merge(
-                            map-get(
-                                map-get($utilities, "translate-middle"),
-                                "values"
-                            ),
+                            map-get(map-get($utilities, "translate-middle"), "values"),
                             (
                                 null: translate(-50%, -50%),
                                 x: translateX(-50%),
@@ -155,7 +152,7 @@ $utilities: map-merge(
 
 [class*="text"][class$="-hover"] {
     cursor: pointer;
-    transition: color 0.3s;
+    transition: color 1.3s;
 }
 
 [class*="bg"][class$="-hover"] {

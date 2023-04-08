@@ -1,76 +1,98 @@
 footer {
-    ul.social-links {
-        li {
-            height: 24px;
-            width: 24px;
+    position: relative;
+    padding-top: 20rem !important;
 
-            margin-left: 20px;
-            display: inline-block;
+    .footer-wrapper {
+        position: relative;
 
-            &:first-of-type {
-                margin-left: 0px;
+        &::before,
+        &::after {
+            position: absolute;
+            content: "";
+            width: 5.5rem;
+            height: 2px;
+            background-color: $secondary;
+            transform: rotate(45deg);
+            z-index: 1;
+        }
+
+        &:before {
+            bottom: 1.2rem;
+            left: -1.5rem;
+        }
+        &:after {
+            top: 1.2rem;
+            right: -1.5rem;
+        }
+    }
+
+    .bg-primary {
+        position: relative;
+
+        &::before,
+        &::after {
+            position: absolute;
+            content: "";
+            width: 5rem;
+            height: 5rem;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            background: url(../img/texture-tile.jpg) no-repeat center center / 250px 250px;
+            z-index: 0;
+        }
+
+        &:before {
+            bottom: -2.5rem;
+            left: -2.5rem;
+        }
+        &:after {
+            top: -2.5rem;
+            right: -2.5rem;
+        }
+    }
+
+    #contactFormContainer {
+        top: -24rem;
+
+        .bg-gray {
+            position: relative;
+
+            .halftone {
+                position: absolute;
+                top: -2rem;
+                left: 0;
+                width: 50%;
+                opacity: 0.2;
+                z-index: 0;
             }
 
-            .facebook,
-            .twitter,
-            .instagram,
-            .youtube {
+            #contactForm {
+                position: relative;
+                z-index: 1;
 
-                img,
-                svg {
-                    transform: scale(1);
-
-                    transition: ease 0.3s all;
-
-                    height: 24px;
-                    width: 24px;
-                }
-
-                &:hover {
-
-                    img,
-                    svg {
-                        transform: scale(1.25);
+                .btn-wrapper {
+                    .btn-white {
+                        padding: 0.75rem 1.5rem;
                     }
-                }
-            }
-
-            .facebook {
-                .st0 {
-                    fill: $primary;
-                }
-
-                .st1 {
-                    fill: $white;
-                }
-            }
-
-            .youtube {
-                .cls-1 {
-                    fill: $primary;
-                }
-            }
-
-            .twitter,
-            .instagram {
-                .st0 {
-                    fill: $primary;
                 }
             }
         }
     }
 
-    // SAM flag
-    #sam-flag {
-        position: relative;
-        top: -2px;
-        margin: 0 2px;
-
-        height: 30px;
-        width: 21px;
-
-        .cls-1 {
-            fill: $primary;
+    .social-wrapper {
+        a {
+            i.bi {
+                transition: color 0.2s;
+            }
+            &:hover {
+                i.bi {
+                    color: $secondary !important;
+                }
+            }
         }
+    }
+
+    #copyright {
+        position: absolute;
+        bottom: 0.5rem;
     }
 }

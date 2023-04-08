@@ -1,9 +1,38 @@
 <footer class="bg-texture p-5">
-	<div class="bg-primary p-5">
-		<div class="container ">
-			<div class="row">
-				<div class="col-12">
-					<div class=" p5">
+	<div class="footer-wrapper">
+		<div class="bg-primary p-5">
+			<div class="container">
+				<div class="row position-relative">
+					<div id="contactFormContainer" class="col-lg-7 sticky-side-left sticky-side-lg">
+						<div class="bg-gray p-4">
+							<img src="assets/img/halftone-new.png" alt="Halftone pattern" class="halftone img-fluid">
+							<div class="row justify-content-center">
+								<div class="col-lg-10">
+									<h2 class="display-1 font-regular">CONTACT</h2>
+									<p>Fill out the form below for a quote or for general inquiries</p>
+								</div>
+							</div>
+							<form id="contactForm">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="mb-3">
+											<input type="text" class="form-control border-0" id="name" placeholder="Name">
+										</div>
+										<div class="mb-3">
+											<input type="email" class="form-control border-0" id="email" placeholder="Email" required>
+										</div>
+										<div class="mb-3">
+											<textarea name="Message" id="message" cols="30" rows="4" placeholder="Message" class="w-100 border-0 p-2"></textarea>
+										</div>
+										<div class="btn-wrapper btn-wrapper-white d-inline-block">
+											<button type="submit" href="#" class="btn btn-white d-inline-block">Submit</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-12 p-4">
 						<div class="col-lg-6 offset-lg-6 d-flex justify-content-center align-items-center">
 							<p class="h1 d-inline-block text-white text-center display-3 me-5">
 								Tru<span class="text-secondary">th</span>reads
@@ -11,8 +40,12 @@
 							</p>
 							<div class="vr bg-secondary mx-5 opacity-100" style="width: 2px;"></div>
 							<div class="social-wrapper d-flex flex-column ms-5">
-								<i class="bi bi-facebook text-white fs-2"></i>
-								<i class="bi bi-instagram text-white fs-2"></i>
+								<a href="https://www.facebook.com/truthreadsprinting" target="_blank">
+									<i class="bi bi-facebook text-white fs-2"></i>
+								</a>
+								<a href="https://www.instagram.com/truthreadsprinting/" target="_blank">
+									<i class="bi bi-instagram text-white fs-2"></i>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -20,4 +53,5 @@
 			</div>
 		</div>
 	</div>
+	<p id="copyright" class="start-50 translate-middle mb-0">Copyright &copy; <span id="currentYear"></span> - Truthreads LLC</p>
 </footer>
