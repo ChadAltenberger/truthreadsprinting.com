@@ -55,7 +55,7 @@
 /* ================== CUSTOM COMPONENTS ================= */
 // @codekit-prepend "src/components/trigger-popup.js";
 // @codekit-prepend "src/components/current-year.js";
-//  "src/components/eh-elements.js";
+// @codekit-prepend "src/components/eh-elements.js";
 // @codekit-prepend "src/components/sticky-sides.js";
 
 /* ==================== PAGE SPECIFIC =================== */
