@@ -9,7 +9,7 @@ footer {
         &::after {
             position: absolute;
             content: "";
-            width: 5.5rem;
+            width: 4.5rem;
             height: 2px;
             background-color: $secondary;
             transform: rotate(45deg);
@@ -17,41 +17,84 @@ footer {
         }
 
         &:before {
-            bottom: 1.2rem;
-            left: -1.5rem;
+            bottom: 0.8rem;
+            left: -1.6rem;
         }
         &:after {
-            top: 1.2rem;
-            right: -1.5rem;
+            top: 0.8rem;
+            right: -1.6rem;
+        }
+        @media #{$sm-up} {
+            &::before,
+            &::after {
+                width: 5.5rem;
+            }
+            &:before {
+                bottom: 1.2rem;
+                left: -1.5rem;
+            }
+            &:after {
+                top: 1.2rem;
+                right: -1.5rem;
+            }
         }
     }
 
     .bg-primary {
         position: relative;
 
+        @media (min-width: 768px) and (max-width: 1200px) {
+            padding-top: 12rem !important;
+        }
+
         &::before,
         &::after {
             position: absolute;
             content: "";
-            width: 5rem;
-            height: 5rem;
+            width: 3rem;
+            height: 3rem;
             clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
             background: url(../img/texture-tile.jpg) no-repeat center center / 250px 250px;
             z-index: 0;
         }
 
         &:before {
-            bottom: -2.5rem;
-            left: -2.5rem;
+            bottom: -1.5rem;
+            left: -1.5rem;
         }
         &:after {
-            top: -2.5rem;
-            right: -2.5rem;
+            top: -1.5rem;
+            right: -1.5rem;
+        }
+
+        @media #{$sm-up} {
+            &::before,
+            &::after {
+                width: 5rem;
+                height: 5rem;
+            }
+            &:before {
+                bottom: -2.5rem;
+                left: -2.5rem;
+            }
+            &:after {
+                top: -2.5rem;
+                right: -2.5rem;
+            }
         }
     }
 
     #contactFormContainer {
-        top: -24rem;
+        margin-top: -6rem;
+
+        @media #{$md-up} {
+            margin-top: 0;
+            top: -24rem;
+        }
+
+        @media (min-width: 768px) and (max-width: 1200px) {
+            top: -30rem;
+        }
 
         .bg-gray {
             position: relative;
@@ -78,6 +121,10 @@ footer {
         }
     }
 
+    .logo {
+        width: 4rem;
+    }
+
     .social-wrapper {
         a {
             i.bi {
@@ -93,6 +140,11 @@ footer {
 
     #copyright {
         position: absolute;
-        bottom: 0.5rem;
+        bottom: 1.5rem;
+
+        @media #{$sm-up} {
+            bottom: 0.5rem;
+            color: $primary !important;
+        }
     }
 }

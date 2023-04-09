@@ -231,6 +231,45 @@
       "q" : 80,
       "rq" : 75
     },
+    "\/build\/assets\/img\/services\/embroidery.jpg" : {
+      "ft" : 16384,
+      "iS" : 117500,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/services\/embroidery.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/services\/screen-printing.jpg" : {
+      "ft" : 16384,
+      "iS" : 103063,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/services\/screen-printing.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/build\/assets\/img\/services\/vinyl.jpg" : {
+      "ft" : 16384,
+      "iS" : 29142,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/app\/assets\/img\/services\/vinyl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/build\/assets\/img\/texture-corner.jpg" : {
       "ft" : 16384,
       "iS" : 2969,
