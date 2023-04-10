@@ -3,7 +3,12 @@
     transition: background-color 0.3s;
 
     .logo {
-        width: 3rem;
+        width: 2.4rem;
+
+        @media #{$sm-up} {
+            width: 3rem;
+        }
+
         transition: transform 0.25s;
 
         &:hover {
@@ -12,31 +17,49 @@
     }
 
     .offcanvas {
-        .nav-link {
-            position: relative;
-            color: $white !important;
-            transition: opacity 0.2s;
+        .offcanvas-title {
+            letter-spacing: 0.2;
 
-            &.active {
-                border: 1px solid $white;
-                clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+            @media #{$sm-down} {
+                font-size: 2.3rem;
+            }
+        }
+        .nav-item {
+            @media #{$lg-down} {
+                border-bottom: 0.5px solid $white-50;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
-                @media #{$lg-down} {
-                    margin-left: 0.5rem;
+                .nav-link {
+                    letter-spacing: 0.2rem;
+                }
+            }
+
+            .nav-link {
+                position: relative;
+                color: $white !important;
+                transition: opacity 0.2s;
+
+                &.active {
+                    border: 1px solid $white;
+                    clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+
+                    @media #{$lg-down} {
+                        margin-left: 0.5rem;
+                    }
+
+                    outline: 1px solid $white;
+                    outline-offset: -3px;
                 }
 
-                outline: 1px solid $white;
-                outline-offset: -3px;
-            }
+                &.inactive {
+                    border-color: transparent;
+                    outline-color: transparent;
+                    margin-left: 0 !important;
+                }
 
-            &.inactive {
-                border-color: transparent;
-                outline-color: transparent;
-                margin-left: 0 !important;
-            }
-
-            &:hover {
-                opacity: 0.7;
+                &:hover {
+                    opacity: 0.7;
+                }
             }
         }
     }

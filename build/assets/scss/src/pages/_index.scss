@@ -74,6 +74,12 @@
             #titleLockup {
                 position: relative;
 
+                h1 {
+                    @media #{$md-down} {
+                        font-size: calc(2.5rem + 4.5vw);
+                    }
+                }
+
                 @media #{$lg-up} {
                     margin-top: -15%;
                 }
@@ -127,6 +133,11 @@
             }
 
             #servicesList {
+                @media (max-width: 500px) {
+                    h2 {
+                        font-size: 1rem !important;
+                    }
+                }
                 @media #{$lg-up} {
                     margin-top: 20%;
                 }
@@ -466,6 +477,15 @@
                             }
                         }
                     }
+
+                    .service-title {
+                        @media (max-width: 500px) {
+                            font-size: 1.7rem;
+                        }
+                        @media (min-width: 992px) and (max-width: 1400px) {
+                            font-size: 2rem;
+                        }
+                    }
                 }
             }
 
@@ -508,7 +528,11 @@
             // Carousel Indicators
             .carousel-indicators {
                 margin: 0;
-                bottom: -1.5rem;
+                bottom: -2.5rem;
+
+                @media #{$sm-up} {
+                    bottom: -1.5rem;
+                }
 
                 button {
                     width: 75px;
@@ -558,6 +582,68 @@
 
             .btn-secondary {
                 padding: 0.75rem 1.5rem;
+            }
+        }
+    }
+
+    /* ****************************************************** */
+    /*                      PAYMENT MODAL                     */
+    /* ****************************************************** */
+    .modal {
+        .modal-wrapper {
+            position: relative;
+
+            &::before,
+            &::after {
+                position: absolute;
+                content: "";
+                width: 4rem;
+                height: 2px;
+                background-color: $secondary;
+                transform: rotate(28deg);
+                z-index: 1;
+
+                @media (max-width: 500px) {
+                    width: 2.8rem;
+                    transform: rotate(41deg);
+                }
+            }
+
+            &::before {
+                top: 0.6rem;
+                right: -0.7rem;
+
+                @media (max-width: 500px) {
+                    top: 0.7rem;
+                    right: -0.5rem;
+                }
+            }
+
+            &::after {
+                bottom: 0.6rem;
+                left: -0.7rem;
+
+                @media (max-width: 500px) {
+                    bottom: 0.7rem;
+                    left: -0.5rem;
+                }
+            }
+
+            .modal-content {
+                clip-path: polygon(0 0, 92% 0, 100% 8%, 100% 100%, 8% 100%, 0 92%);
+
+                outline: 1px solid $white-50;
+                outline-offset: -6px;
+
+                .modal-header {
+                    position: relative;
+
+                    .btn-close {
+                        position: absolute;
+                        top: 0.7rem;
+                        right: 0.8rem;
+                    }
+                }
             }
         }
     }

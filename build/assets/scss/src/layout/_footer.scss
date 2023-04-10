@@ -87,6 +87,10 @@ footer {
     #contactFormContainer {
         margin-top: -6rem;
 
+        @media (max-width: 500px) {
+            margin-left: -1.5rem;
+        }
+
         @media #{$md-up} {
             margin-top: 0;
             top: -24rem;
@@ -126,6 +130,9 @@ footer {
     }
 
     .social-wrapper {
+        @media #{$sm-down} {
+            margin-bottom: 1rem;
+        }
         a {
             i.bi {
                 transition: color 0.2s;
@@ -142,6 +149,9 @@ footer {
         position: absolute;
         bottom: 1.5rem;
 
+        @media #{$sm-down} {
+            font-size: 0.8rem;
+        }
         @media #{$sm-up} {
             bottom: 0.5rem;
             color: $primary !important;

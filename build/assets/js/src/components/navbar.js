@@ -1,21 +1,12 @@
 const navbar = document.querySelector("#mainNav");
 const contactLink = document.querySelector(".contact-link");
-const featuredLink = document.querySelector(".featured-link");
-const aboutLink = document.querySelector(".about-link");
-const servicesLink = document.querySelector(".services-link");
-const homeLink = document.querySelector(".home-link");
 const navLinks = document.querySelectorAll(".nav-link");
-let scrolled = false;
+
+const bsOffcanvas = new bootstrap.Offcanvas("#offcanvasNavbar");
 
 // Navbar Effect
 // Adds background to navbar upon scrolling down
 
-function isElementInViewport(el) {
-    const rect = el.getBoundingClientRect();
-    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
-}
-
-let prevScrollPos = window.pageYOffset;
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 80) {
         // target which point in scrolling down to trigger effect
@@ -44,3 +35,30 @@ window.addEventListener("scroll", () => {
         });
     }
 });
+
+function toggleOffcanvas() {
+    navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+            setTimeout(() => {
+                bsOffcanvas.hide();
+            }, 400);
+        });
+    });
+}
+
+function passHandler(event) {
+    let oldWidth = window.innerWidth;
+    window.addEventListener(event, () => {
+        if (event === "load") {
+            toggleOffcanvas();
+        } else if (event === "resize") {
+            if (window.innerWidth < 992 && window.innerWidth !== oldWidth) {
+                toggleOffcanvas;
+                oldWidth = window.innerWidth;
+            }
+        }
+    });
+}
+
+passHandler("load");
+passHandler("resize");

@@ -45,6 +45,10 @@
 
         &.btn-secondary {
             outline: 1px solid $white-50;
+
+            &:hover {
+                background-color: $secondary;
+            }
         }
         &.btn-white {
             outline: 1px solid $primary-50;
