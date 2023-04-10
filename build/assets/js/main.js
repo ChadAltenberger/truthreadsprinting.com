@@ -53,6 +53,7 @@
 // @codekit-prepend "src/base/global-variables.js";
 
 /* ================== CUSTOM COMPONENTS ================= */
+// @codekit-prepend "src/components/navbar.js";
 // @codekit-prepend "src/components/trigger-popup.js";
 // @codekit-prepend "src/components/current-year.js";
 // @codekit-prepend "src/components/eh-elements.js";

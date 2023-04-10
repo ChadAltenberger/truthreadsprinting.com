@@ -1,68 +1,81 @@
 .btn-wrapper {
-	position: relative;
+    position: relative;
 
-	&::before {
-		position: absolute;
-		content: "";
-		bottom: 84%;
-		right: -13px;
-		width: 2.5rem;
-		height: 2px;
-		// background-color: $secondary;
-		transform: rotate(37deg);
-		z-index: 1;
-		transition: width 0.25s, bottom 0.25s, right 0.25s;
-	}
+    &::before {
+        position: absolute;
+        content: "";
+        bottom: 84%;
+        right: -13px;
+        width: 2.5rem;
+        height: 2px;
+        // background-color: $secondary;
+        transform: rotate(37deg);
+        z-index: 1;
+        transition: width 0.25s, bottom 0.25s, right 0.25s;
+    }
 
-	&::after {
-		position: absolute;
-		content: "";
-		top: 84%;
-		left: -13px;
-		width: 2.5rem;
-		height: 2px;
-		// background-color: $secondary;
-		transform: rotate(37deg);
-		z-index: 1;
-		transition: width 0.25s, top 0.25s, left 0.25s;
-	}
+    &::after {
+        position: absolute;
+        content: "";
+        top: 84%;
+        left: -13px;
+        width: 2.5rem;
+        height: 2px;
+        // background-color: $secondary;
+        transform: rotate(37deg);
+        z-index: 1;
+        transition: width 0.25s, top 0.25s, left 0.25s;
+    }
 
-	&.btn-wrapper-white {
-		&::before,
-		&::after {
-			background-color: $white;
-		}
-	}
-	&.btn-wrapper-secondary {
-		&::before,
-		&::after {
-			background-color: $secondary;
-		}
-	}
+    &.btn-wrapper-white {
+        &::before,
+        &::after {
+            background-color: $white;
+        }
+    }
+    &.btn-wrapper-secondary {
+        &::before,
+        &::after {
+            background-color: $secondary;
+        }
+    }
 
-	.btn {
-		clip-path: polygon(0 0, 90% 0, 100% 25%, 100% 100%, 10% 100%, 0 75%);
+    .btn {
+        clip-path: polygon(0 0, 90% 0, 100% 25%, 100% 100%, 10% 100%, 0 75%);
 
-		position: relative;
-		padding: 0.3rem 1.5rem;
-		min-width: 11rem;
+        &.btn-secondary {
+            outline: 1px solid $white-50;
+        }
+        &.btn-white {
+            outline: 1px solid $primary-50;
+        }
+        outline-offset: -4px;
+        transition: outline-offset 0.3s;
 
-		&.btn-white {
-			background-color: $white;
-			color: $primary;
-		}
-	}
+        position: relative;
+        padding: 0.3rem 1.5rem;
+        min-width: 11rem;
 
-	&:hover {
-		&::before {
-			bottom: 96%;
-			right: -3px;
-			width: 2.6rem;
-		}
-		&::after {
-			top: 96%;
-			left: -3px;
-			width: 2.6rem;
-		}
-	}
+        &.btn-white {
+            background-color: $white;
+            color: $primary;
+        }
+    }
+
+    &:hover {
+        &::before {
+            bottom: 96%;
+            right: -3px;
+            width: 2.6rem;
+        }
+        &::after {
+            top: 96%;
+            left: -3px;
+            width: 2.6rem;
+        }
+
+        .btn {
+            outline-offset: 0;
+        }
+    }
 }

@@ -47,7 +47,6 @@ function indexInit() {
             oldWidth = window.innerWidth;
         }
     });
-    // }
 }
 
 /* ============ Only run code if on this page =========== */

@@ -206,7 +206,6 @@
 
             @media #{$md-up} {
                 top: 40%;
-                transform: rotate(90deg);
                 font-size: 15rem;
                 letter-spacing: 1.5rem;
             }
@@ -214,22 +213,10 @@
             @media #{$lg-up} {
                 top: 0;
                 left: -1.5rem;
-                font-size: 14rem;
+                // font-size: 14rem;
+                font-size: 22vw;
                 letter-spacing: 0;
                 transform: rotate(0deg);
-            }
-
-            @media #{$xl-up} {
-                left: -2rem;
-                font-size: 18rem;
-            }
-
-            @media #{$xxl-up} {
-                font-size: 21rem;
-            }
-
-            @media #{$xxl2-up} {
-                font-size: 24rem;
             }
         }
 
@@ -556,23 +543,13 @@
             content: "FEATURED";
             font-weight: 600;
             color: $gray;
-            top: 4rem;
-            right: 1rem;
+            top: -2.5rem;
+            right: 0.5rem;
             width: 100%;
-            font-size: 7rem;
+            font-size: 22vw;
             opacity: 0.5;
             z-index: 0;
             line-height: 1;
-
-            @media #{$sm-up} {
-                font-size: 8rem;
-            }
-
-            @media #{$xxl2-up} {
-                top: -3rem;
-                right: -2rem;
-                font-size: 23rem;
-            }
         }
 
         > .container {

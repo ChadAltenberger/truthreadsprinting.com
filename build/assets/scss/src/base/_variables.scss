@@ -9,6 +9,8 @@ $white: #ffffff;
 $black: #000000;
 $transparent: #ffffff00;
 $gray: #d1d1d1;
+$primary-50: rgba($primary, 0.5);
+$white-50: rgba($white, 0.5);
 
 $body-bg: #f5f5f5;
 
@@ -55,29 +57,28 @@ $enable-shadows: true !default;
 $enable-responsive-font-sizes: true;
 
 // Bootstrap Icons - fonts
-$bootstrap-icons-font-src: url("../fonts/bootstrap-icons.woff2") format("woff2"),
-	url("../fonts/bootstrap-icons.woff") format("woff") !default;
+$bootstrap-icons-font-src: url("../fonts/bootstrap-icons.woff2") format("woff2"), url("../fonts/bootstrap-icons.woff") format("woff") !default;
 
 // scss-docs-start position-map
 $position-values: (
-	0: 0,
-	50: 50%,
-	100: 100%,
-	auto: auto
+    0: 0,
+    50: 50%,
+    100: 100%,
+    auto: auto,
 ) !default;
 // scss-docs-end position-map
 
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
-	xs: 0,
-	sm: 576px,
-	md: 768px,
-	lg: 992px,
-	xl: 1200px,
-	xxl: 1400px,
-	xxl2: 1600px,
-	xxl3: 1900px,
-	xxl4: 2400px
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    xxl2: 1600px,
+    xxl3: 1900px,
+    xxl4: 2400px,
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -87,14 +88,14 @@ $grid-breakpoints: (
 
 // scss-docs-start container-max-widths
 $container-max-widths: (
-	sm: 540px,
-	md: 720px,
-	lg: 960px,
-	xl: 1140px,
-	xxl: 1320px,
-	xxl2: 1520px,
-	xxl3: 1600px,
-	// xxl4: 1600px,
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px,
+    xxl2: 1520px,
+    xxl3: 1600px,
+    // xxl4: 1600px,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -114,52 +115,52 @@ $xxl4: 2400px;
 // Custom snippet variables
 // min-width
 $sm-up: (
-	min-width: $sm
+    min-width: $sm,
 );
 $md-up: (
-	min-width: $md
+    min-width: $md,
 );
 $lg-up: (
-	min-width: $lg
+    min-width: $lg,
 );
 $xl-up: (
-	min-width: $xl
+    min-width: $xl,
 );
 $xxl-up: (
-	min-width: $xxl
+    min-width: $xxl,
 );
 $xxl2-up: (
-	min-width: $xxl2
+    min-width: $xxl2,
 );
 $xxl3-up: (
-	min-width: $xxl3
+    min-width: $xxl3,
 );
 $xxl4-up: (
-	min-width: $xxl4
+    min-width: $xxl4,
 );
 
 // max-width
 $sm-down: (
-	max-width: $sm
+    max-width: $sm,
 );
 $md-down: (
-	max-width: $md
+    max-width: $md,
 );
 $lg-down: (
-	max-width: $lg
+    max-width: $lg,
 );
 $xl-down: (
-	max-width: $xl
+    max-width: $xl,
 );
 $xxl-down: (
-	max-width: $xxl
+    max-width: $xxl,
 );
 $xxl2-down: (
-	max-width: $xxl2
+    max-width: $xxl2,
 );
 $xxl3-down: (
-	max-width: $xxl3
+    max-width: $xxl3,
 );
 $xxl4-down: (
-	max-width: $xxl4
+    max-width: $xxl4,
 );

@@ -1,0 +1,43 @@
+#mainNav {
+    z-index: 10;
+    transition: background-color 0.3s;
+
+    .logo {
+        width: 3rem;
+        transition: transform 0.25s;
+
+        &:hover {
+            transform: rotate(10deg) scale(1.08);
+        }
+    }
+
+    .offcanvas {
+        .nav-link {
+            position: relative;
+            color: $white !important;
+            transition: opacity 0.2s;
+
+            &.active {
+                border: 1px solid $white;
+                clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+
+                @media #{$lg-down} {
+                    margin-left: 0.5rem;
+                }
+
+                outline: 1px solid $white;
+                outline-offset: -3px;
+            }
+
+            &.inactive {
+                border-color: transparent;
+                outline-color: transparent;
+                margin-left: 0 !important;
+            }
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}
