@@ -1,7 +1,7 @@
 {
   "name": "truthreadsprinting.com",
   "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
+  "description": "Website for custom apparel company.",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
