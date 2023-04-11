@@ -22,21 +22,6 @@
 // "../../../node_modules/bootstrap/js/src/toast.js";
 // "../../../node_modules/bootstrap/js/src/tooltip.js";
 
-// scrollpos-styler js
-// "../../../node_modules/scrollpos-styler/scrollPosStyler.js";
-
-// skrollr js
-// "../../../node_modules/skrollr/dist/skrollr.min.js";
-
-// Lazyload
-// "../../../node_modules/vanilla-lazyload/dist/lazyload.min.js";
-// var myLazyLoad = new LazyLoad({
-//     elements_selector: ".lazy"
-// });
-
-// Slick slider js
-// "../../../node_modules/slick-slider/slick/slick.min.js";
-
 // AOS js
 // "../../../node_modules/aos/dist/aos.js";
 // AOS.init();

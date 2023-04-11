@@ -1,4 +1,4 @@
-app/
+dist/
 
 # Node artifact files
 node_modules/
