@@ -1,0 +1,1 @@
+function triggerPopup(o){window.onload=()=>{let n;new bootstrap.Modal(o).show()}}

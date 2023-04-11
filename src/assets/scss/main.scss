@@ -1,4 +1,4 @@
-@import "src/base/variables";
+@import "base/variables";
 
 // bootstrap@5.2.3
 @import "../../../../node_modules/bootstrap/scss/mixins/banner";
@@ -49,7 +49,7 @@
 @import "../../../../node_modules/bootstrap/scss/helpers";
 
 // Customize Bootstrap Utility Classes
-@import "src/base/utilities-map";
+@import "base/utilities-map";
 
 // Utilities
 @import "../../../../node_modules/bootstrap/scss/utilities/api";
@@ -65,30 +65,30 @@
 @import "../../../../node_modules/@fancyapps/ui/dist/fancybox/fancybox.css";
 
 // AOS animation - will need to update if we update the npm package to a new version
-// @import 'src/npm/aos.scss';
+// @import 'npm/aos.scss';
 
 /* ======================== BASE ======================== */
-// 'src/base/mixins';
-// 'src/base/helpers';
-@import "src/base/general";
-// @import "src/base/fontface";
-@import "src/base/typography";
+// 'base/mixins';
+// 'base/helpers';
+@import "base/general";
+// @import "base/fontface";
+@import "base/typography";
 
 /* ======================= LAYOUT ======================= */
-@import "src/layout/sections";
-@import "src/layout/footer";
-@import "src/layout/navbar";
+@import "layout/sections";
+@import "layout/footer";
+@import "layout/navbar";
 
 /* ===================== COMPONENTS ===================== */
-@import "src/components/logos";
-@import "src/components/buttons";
-@import "src/components/gallery";
-@import "src/components/eh-elements";
-@import "src/components/sticky-sides";
+@import "components/logos";
+@import "components/buttons";
+@import "components/gallery";
+@import "components/eh-elements";
+@import "components/sticky-sides";
 
 /* ===================== WEBP IMAGES ==================== */
-@import "src/webp/_index.scss";
+@import "webp/_index.scss";
 
 /* ======================== PAGES ======================= */
-@import "src/pages/index";
-@import "src/pages/error";
+@import "pages/index";
+@import "pages/error";
