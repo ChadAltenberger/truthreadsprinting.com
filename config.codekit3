@@ -311,6 +311,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/assets\/js\/base\/popper.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/assets\/js\/js\/popper.min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/assets\/js\/components\/current-year.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -384,17 +395,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dist\/assets\/js\/js\/index.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/src\/assets\/js\/popper.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/assets\/js\/popper.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -15899,7 +15899,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702934369.70157099
+    "lastBuiltDate" : 702937339.52107501
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
