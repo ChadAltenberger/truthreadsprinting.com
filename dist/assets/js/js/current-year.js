@@ -1,1 +1,0 @@
-year=(new Date).getYear(),year<1900&&(year+=1900),document.getElementById("currentYear").innerHTML=year;

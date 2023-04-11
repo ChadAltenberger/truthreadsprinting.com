@@ -1,7 +1,7 @@
 // Framework
 // @codekit-prepend "../../../node_modules/jquery/dist/jquery.min.js";
 // @codekit-prepend "../../../node_modules/popper.js/dist/umd/popper.min.js";
-// "base/popper.min.js";
+// "./popper.min.js";
 // @codekit-prepend "base/modernizr-webp.js";
 
 // Bootstrap - not using full js bundle, see below
