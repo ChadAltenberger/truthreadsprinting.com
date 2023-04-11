@@ -44,9 +44,9 @@
     },
     "\/node_modules" : {
       "ft" : 65536,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/dist\/node_modules",
-      "oF" : 0
+      "oF" : 1
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -15899,7 +15899,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702937339.52107501
+    "lastBuiltDate" : 702937664.15506303
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
