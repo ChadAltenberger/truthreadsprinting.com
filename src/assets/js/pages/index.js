@@ -7,6 +7,7 @@ function indexInit() {
         smallBlur.style.width = `${distanceToLeftEdge}px`;
         smallBlur.style.backdropFilter = "blur(8px)";
     }
+
     function setSliderHeights() {
         // Select all .carousel-item elements
         const carouselItems = document.querySelectorAll(".carousel-item");
@@ -37,24 +38,27 @@ function indexInit() {
         }
     }
 
-    function passHandler(event) {
-        window.addEventListener(event, setSliderHeights);
+    const params = [setSliderHeights, getAndSetWidth];
+
+    function passHandler(event, ...params) {
+        window.addEventListener(event, ...params);
     }
 
-    passHandler("load");
-    passHandler("resize");
-    passHandler("orientationchange");
+    passHandler("load", params[0], params[1]);
+    passHandler("resize", params[0], params[1]);
+    passHandler("orientationchange", params[0]);
 
-    window.addEventListener("load", () => {
-        smallBlur.style.width = 0;
-        smallBlur.style.backdropFilter = "blur(8px)";
-    });
+    // window.addEventListener("load", () => {
+    //     // smallBlur.style.width = 0;
+    //     // smallBlur.style.backdropFilter = "blur(8px)";
+    //     getAndSetWidth();
+    // });
 
-    window.addEventListener("resize", () => {
-        smallBlur.style.width = 0;
-        smallBlur.style.backdropFilter = "blur(8px)";
-        getAndSetWidth();
-    });
+    // window.addEventListener("resize", () => {
+    //     // smallBlur.style.width = 0;
+    //     // smallBlur.style.backdropFilter = "blur(8px)";
+    //     getAndSetWidth();
+    // });
 
     Fancybox.bind("[data-fancybox='gallery']", {
         Thumbs: {
