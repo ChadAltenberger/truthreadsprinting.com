@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
 
     // Allow for active state on Contact link (Featured still in viewport with Contact Form visible)
     // If scrolled to the bottom of the page...
-    if (window.scrollY + window.innerHeight == document.documentElement.scrollHeight) {
+    if (window.pageYOffset + window.innerHeight == document.documentElement.scrollHeight) {
         contactLink.classList.add("active");
         navLinks.forEach((link) => {
             if (!link.classList.contains("contact-link")) {
