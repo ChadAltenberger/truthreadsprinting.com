@@ -213,6 +213,19 @@
       "q" : 80,
       "rq" : 75
     },
+    "\/src\/assets\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 648511,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
     "\/src\/assets\/img\/screens-xl.png" : {
       "ft" : 32768,
       "iS" : 3135443,
