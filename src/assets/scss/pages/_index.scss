@@ -116,7 +116,7 @@
                         top: 0;
                         left: 0;
                         width: 1px;
-                        height: 90vh;
+                        height: 80vh;
                         background-color: $secondary;
                         z-index: 0;
                     }
@@ -337,6 +337,15 @@
                 @media #{$xxl2-up} {
                     margin-top: -30rem;
                 }
+
+                @media #{$xxl3-up} {
+                    margin-top: -38rem;
+                    max-width: 90%;
+                }
+
+                @media #{$xxl4-up} {
+                    margin-top: -40rem;
+                }
             }
         }
 
@@ -357,6 +366,9 @@
             }
             @media #{$xxl2-up} {
                 margin-top: 14rem;
+            }
+            @media #{$xxl3-up} {
+                margin-top: 18rem;
             }
 
             .corner-slash {
