@@ -37,7 +37,11 @@ html {
 }
 
 .bg-texture {
-    background: url(../img/texture-tile.jpg) repeat center center / 250px 250px;
+    background: url(../img/texture-tile.jpg) repeat center center / 150px 150px;
+
+    @media #{$xl-up} {
+        background-size: 250px 250px;
+    }
 }
 
 .bg-opaque {
