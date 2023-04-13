@@ -6,7 +6,7 @@
         height: 90vh;
         position: relative;
         background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
-        z-index: 0;
+        z-index: 1;
 
         @media #{$retina} {
             background-image: url(../img/hero-bg-md@2x.jpg);
@@ -165,25 +165,17 @@
             height: 75%;
             backdrop-filter: blur(8px);
         }
-    }
-
-    /* ****************************************************** */
-    /*                         VALUES                         */
-    /* ****************************************************** */
-    #values {
-        position: relative;
-        padding-bottom: 30rem;
 
         // Gray block on right
-        &::after {
+        .gray-box {
             position: absolute;
-            content: "";
-            top: -4rem;
-            right: 0;
             width: 7rem;
             height: 70vh;
-            background-color: $gray;
-            z-index: 0;
+            right: 0;
+            bottom: 4rem;
+            transform: rotate(180deg);
+            transform-origin: bottom;
+            z-index: 2;
 
             @media #{$sm-up} {
                 width: 10rem;
@@ -194,6 +186,14 @@
                 height: 70vh;
             }
         }
+    }
+
+    /* ****************************************************** */
+    /*                         VALUES                         */
+    /* ****************************************************** */
+    #values {
+        position: relative;
+        padding-bottom: 30rem;
 
         // VALUES
         &::before {

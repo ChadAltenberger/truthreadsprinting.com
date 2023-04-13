@@ -38,27 +38,17 @@ function indexInit() {
         }
     }
 
-    const params = [setSliderHeights, getAndSetWidth];
+    window.addEventListener("load", () => {
+        setSliderHeights();
+        getAndSetWidth();
+    });
 
-    function passHandler(event, ...params) {
-        window.addEventListener(event, ...params);
-    }
+    window.addEventListener("resize", () => {
+        setSliderHeights();
+        getAndSetWidth();
+    });
 
-    passHandler("load", params[0], params[1]);
-    passHandler("resize", params[0], params[1]);
-    passHandler("orientationchange", params[0]);
-
-    // window.addEventListener("load", () => {
-    //     // smallBlur.style.width = 0;
-    //     // smallBlur.style.backdropFilter = "blur(8px)";
-    //     getAndSetWidth();
-    // });
-
-    // window.addEventListener("resize", () => {
-    //     // smallBlur.style.width = 0;
-    //     // smallBlur.style.backdropFilter = "blur(8px)";
-    //     getAndSetWidth();
-    // });
+    window.addEventListener("orientationchange", setSliderHeights);
 
     Fancybox.bind("[data-fancybox='gallery']", {
         Thumbs: {

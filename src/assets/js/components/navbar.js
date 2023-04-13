@@ -4,9 +4,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 
 const bsOffcanvas = new bootstrap.Offcanvas("#offcanvasNavbar");
 
-// Navbar Effect
 // Adds background to navbar upon scrolling down
-
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 80) {
         // target which point in scrolling down to trigger effect
@@ -18,8 +16,8 @@ window.addEventListener("scroll", () => {
     }
 
     // Allow for active state on Contact link (Featured still in viewport with Contact Form visible)
-    // If scrolled to the bottom of the page...
-    if (window.pageYOffset + window.innerHeight == document.documentElement.scrollHeight) {
+    // If scrolled to within the last 95% of the page...
+    if (window.pageYOffset + window.innerHeight >= document.documentElement.scrollHeight * 0.95) {
         contactLink.classList.add("active");
         navLinks.forEach((link) => {
             if (!link.classList.contains("contact-link")) {
