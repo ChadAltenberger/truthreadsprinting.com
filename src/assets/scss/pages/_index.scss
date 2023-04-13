@@ -90,20 +90,20 @@
                         position: absolute;
                         content: "";
                         top: -0.7rem;
-                        left: 0;
+                        left: -2rem;
                         width: 1.5px;
                         height: 1.5rem;
                         background-color: $secondary;
-                        transform: rotate(45deg);
+                        transform: rotate(-45deg);
                         z-index: 0;
                     }
 
                     @media #{$lg-up} {
-                        left: -2rem;
+                        left: -4rem;
                         top: -3.7rem;
                     }
 
-                    @media #{$xl-up} {
+                    @media #{$xxl-up} {
                         left: 0;
                     }
                 }
@@ -114,7 +114,7 @@
                         position: absolute;
                         content: "";
                         top: 0;
-                        left: 0;
+                        left: -2rem;
                         width: 1px;
                         height: 80vh;
                         background-color: $secondary;
@@ -122,11 +122,11 @@
                     }
 
                     @media #{$lg-up} {
-                        left: -2rem;
+                        left: -4rem;
                         top: -3rem;
                     }
 
-                    @media #{$xl-up} {
+                    @media #{$xxl-up} {
                         left: 0;
                     }
                 }

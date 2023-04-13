@@ -109,6 +109,87 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/src\/assets\/img\/favicon\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 41967,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/favicon\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/favicon\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 229853,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/favicon\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/favicon\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 37658,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/favicon\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/favicon\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 890,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/favicon\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/favicon\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 2354,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/favicon\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/favicon\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/assets\/img\/favicon\/favicon.ico",
+      "oF" : 0
+    },
+    "\/src\/assets\/img\/favicon\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/assets\/img\/favicon\/site.webmanifest",
+      "oF" : 0
+    },
     "\/src\/assets\/img\/featured1.jpg" : {
       "ft" : 16384,
       "iS" : 36855,
