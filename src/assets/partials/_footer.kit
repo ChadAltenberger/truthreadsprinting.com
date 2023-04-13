@@ -12,17 +12,18 @@
 									<p>Fill out the form below for a quote or for general inquiries</p>
 								</div>
 							</div>
-							<form id="contactForm">
+							<form id="contactForm" action="https://formsubmit.co/8aacb719fbc4870e346752e865d09abf" method="POST">
+								<input type="hidden" name="_next" value="http://chad.local:5757/thank-you.html">
 								<div class="row justify-content-center">
 									<div class="col-lg-10">
 										<div class="mb-3">
-											<input type="text" class="form-control border-primary border-opacity-50" id="name" placeholder="Name">
+											<input type="text" class="form-control border-primary border-opacity-50" id="name" name="Name" placeholder="Name" required>
 										</div>
 										<div class="mb-3">
-											<input type="email" class="form-control border-primary border-opacity-50" id="email" placeholder="Email" required>
+											<input type="email" class="form-control border-primary border-opacity-50" id="email" name="Email" placeholder="Email" required>
 										</div>
 										<div class="mb-3">
-											<textarea name="Message" id="message" cols="30" rows="4" placeholder="Message" class="w-100 border-primary border-opacity-50 p-2"></textarea>
+											<textarea id="message" name="Message" cols="30" rows="4" placeholder="Message" class="w-100 border-primary border-opacity-50 p-2"></textarea>
 										</div>
 										<div class="btn-wrapper btn-wrapper-white d-inline-block">
 											<button type="submit" href="#" class="btn btn-white d-inline-block">Submit</button>

@@ -43,3 +43,9 @@ html {
 .bg-opaque {
     background-color: rgba($color: $white, $alpha: 0.2);
 }
+
+h2.display-1 {
+    @media (min-width: 1200px) and (max-width: 1400px) {
+        font-size: 5rem !important;
+    }
+}

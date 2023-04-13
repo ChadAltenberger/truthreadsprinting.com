@@ -190,12 +190,12 @@
       "oAP" : "\/dist\/assets\/img\/favicon\/site.webmanifest",
       "oF" : 0
     },
-    "\/src\/assets\/img\/featured1.jpg" : {
+    "\/src\/assets\/img\/featured\/featured1.jpg" : {
       "ft" : 16384,
       "iS" : 36855,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/assets\/img\/featured1.jpg",
+      "oAP" : "\/dist\/assets\/img\/featured\/featured1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -307,16 +307,55 @@
       "q" : 80,
       "rq" : 75
     },
-    "\/src\/assets\/img\/screens-xl.png" : {
+    "\/src\/assets\/img\/our-story\/screens-lg.png" : {
       "ft" : 32768,
-      "iS" : 3135443,
+      "iS" : 1916459,
       "oA" : 0,
-      "oAP" : "\/dist\/assets\/img\/screens-xl.png",
+      "oAP" : "\/dist\/assets\/img\/our-story\/screens-lg.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/our-story\/screens-md.png" : {
+      "ft" : 32768,
+      "iS" : 1152427,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/our-story\/screens-md.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/our-story\/screens-sm.png" : {
+      "ft" : 32768,
+      "iS" : 641022,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/our-story\/screens-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 80,
+      "rq" : 75
+    },
+    "\/src\/assets\/img\/our-story\/screens-xl.png" : {
+      "ft" : 32768,
+      "iS" : 3135443,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/img\/our-story\/screens-xl.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -16005,6 +16044,14 @@
       "oA" : 0,
       "oAP" : "\/dist\/index.html",
       "oF" : 0
+    },
+    "\/src\/thank-you.kit" : {
+      "cB" : 1,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/thank-you.html",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -16019,7 +16066,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 703089803.08652401
+    "lastBuiltDate" : 703106370.78968894
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
