@@ -1,6 +1,11 @@
 function indexInit() {
+    const hero = document.querySelector("#hero");
     const smallBlur = document.querySelector("#smallBlur");
+    const bigBlur = document.querySelector("#bigBlur");
     const titleLockup = document.querySelector("#titleLockup");
+    const screenPrinting = document.querySelector(".screen-printing");
+    const embroidery = document.querySelector(".embroidery");
+    const vinyl = document.querySelector(".vinyl");
 
     function getAndSetWidth() {
         let distanceToLeftEdge = titleLockup.getBoundingClientRect().left; // The distance from the element with a line to left of screen
@@ -41,6 +46,13 @@ function indexInit() {
     window.addEventListener("load", () => {
         setSliderHeights();
         getAndSetWidth();
+        titleLockup.classList.add("animate");
+        hero.classList.add("animate");
+        smallBlur.classList.add("animate");
+        bigBlur.classList.add("animate");
+        screenPrinting.classList.add("animate");
+        embroidery.classList.add("animate");
+        vinyl.classList.add("animate");
     });
 
     window.addEventListener("resize", () => {
@@ -75,6 +87,23 @@ function indexInit() {
             });
             oldWidth = window.innerWidth;
         }
+    });
+
+    /* ****************************************************** */
+    /*                         RELLAX                         */
+    /* ****************************************************** */
+    let rellax = new Rellax(".rellax");
+
+    window.addEventListener("load", () => {
+        if (window.innerWidth < 992) {
+            rellax.destroy();
+        }
+    });
+
+    window.addEventListener("resize", () => {
+        if (window.innerWidth < 992) {
+            rellax.destroy();
+        } else rellax.refresh();
     });
 }
 

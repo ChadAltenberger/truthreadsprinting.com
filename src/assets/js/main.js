@@ -23,14 +23,15 @@
 // "../../../node_modules/bootstrap/js/src/tooltip.js";
 
 // AOS js
-// "../../../node_modules/aos/dist/aos.js";
-// AOS.init();
+// @codekit-prepend "../../../node_modules/aos/dist/aos.js";
+AOS.init();
 
 // Fancybox
 // @codekit-prepend "npm/fancybox.js";
 
 // rellax js
-// "../../../node_modules/rellax/rellax.min.js";
+// @codekit-prepend "../../../node_modules/rellax/rellax.min.js";
+// let rellax = new Rellax(".rellax");
 
 // @codekit-prepend "base/ie10-viewport-bug-workaround.js";
 

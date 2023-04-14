@@ -40,12 +40,15 @@
 
         // Bottom horizontal line
         &::after {
+            transition: width 0.8s ease-in-out;
+
             @media #{$sm-up} {
                 position: absolute;
                 content: "";
                 bottom: 6rem;
                 left: 0;
-                width: 75vw;
+                width: 0;
+                // width: 75vw;
                 height: 1px;
                 background-color: $secondary;
                 z-index: 0;
@@ -53,6 +56,12 @@
 
             @media #{$xl-up} {
                 bottom: 10rem;
+            }
+        }
+
+        &.animate {
+            &::after {
+                width: 75vw;
             }
         }
 
@@ -74,6 +83,10 @@
             #titleLockup {
                 position: relative;
 
+                opacity: 0;
+                transform: translateY(2rem);
+                transition: opacity 0.8s, transform 0.8s;
+
                 h1 {
                     @media #{$md-down} {
                         font-size: calc(2.5rem + 4.5vw);
@@ -86,15 +99,18 @@
 
                 // Orange slash above title
                 &::before {
+                    transition: opacity 0.8s;
+
                     @media #{$sm-up} {
                         position: absolute;
                         content: "";
                         top: -0.7rem;
                         left: -2rem;
-                        width: 1.5px;
+                        width: 1px;
                         height: 1.5rem;
                         background-color: $secondary;
                         transform: rotate(-45deg);
+                        opacity: 0;
                         z-index: 0;
                     }
 
@@ -110,13 +126,16 @@
 
                 // Orange line extending down from slash
                 &::after {
+                    transition: height 0.8s ease-in-out;
+
                     @media #{$sm-up} {
                         position: absolute;
                         content: "";
                         top: 0;
                         left: -2rem;
                         width: 1px;
-                        height: 80vh;
+                        height: 0;
+                        // height: 80vh;
                         background-color: $secondary;
                         z-index: 0;
                     }
@@ -130,6 +149,18 @@
                         left: 0;
                     }
                 }
+
+                &.animate {
+                    opacity: 1;
+                    transform: translateY(0);
+                    &::before {
+                        opacity: 1;
+                    }
+
+                    &::after {
+                        height: 80vh;
+                    }
+                }
             }
 
             #servicesList {
@@ -141,6 +172,27 @@
                 @media #{$lg-up} {
                     margin-top: 20%;
                 }
+
+                .screen-printing,
+                .embroidery,
+                .vinyl {
+                    opacity: 0;
+                    transform: translateY(2rem);
+                    transition: opacity 0.8s, transform 0.8s;
+
+                    &.animate {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+
+                .embroidery {
+                    transition-delay: 0.2s;
+                }
+
+                .vinyl {
+                    transition-delay: 0.4s;
+                }
             }
         }
 
@@ -151,9 +203,15 @@
             height: 6rem;
             // width: 8rem;
             backdrop-filter: blur(8px);
+            opacity: 0;
+            transition: opacity 0.8s;
 
             @media #{$xl-up} {
                 height: 10rem;
+            }
+
+            &.animate {
+                opacity: 1;
             }
         }
 
@@ -164,6 +222,12 @@
             width: 50%;
             height: 75%;
             backdrop-filter: blur(8px);
+            opacity: 0;
+            transition: opacity 0.8s;
+
+            &.animate {
+                opacity: 1;
+            }
         }
 
         // Gray block on right
@@ -291,7 +355,7 @@
 
                 &#qualityCard {
                     @media #{$lg-up} {
-                        transform: translateY(45%);
+                        top: 50%;
                     }
                 }
             }
@@ -568,6 +632,15 @@
     /* ****************************************************** */
     #featured {
         position: relative;
+
+        img.logo {
+            position: absolute;
+            width: 50%;
+            bottom: -6rem;
+            right: -2rem;
+            opacity: 0.15;
+            z-index: 1;
+        }
 
         @media #{$md-up} {
             padding-bottom: 20rem;
