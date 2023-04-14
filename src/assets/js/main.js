@@ -31,7 +31,6 @@ AOS.init();
 
 // rellax js
 // @codekit-prepend "../../../node_modules/rellax/rellax.min.js";
-// let rellax = new Rellax(".rellax");
 
 // @codekit-prepend "base/ie10-viewport-bug-workaround.js";
 
