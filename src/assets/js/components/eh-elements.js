@@ -11,15 +11,10 @@ function ehElementsInit() {
         let ehContainers = document.querySelectorAll(".eh-container");
         for (let i = 0; i < ehContainers.length; i++) {
             // Add differentiating numbers to 'eh-container' classes (keeps equal-height elements contained to their appropriate containers)
-            ehContainers[i].classList.replace(
-                "eh-container",
-                `eh-container-${i}`
-            );
+            ehContainers[i].classList.replace("eh-container", `eh-container-${i}`);
 
             // Set the classList of each container to a '.'-separated string
-            let containerClass = `.${ehContainers[i].classList
-                .toString()
-                .replace(/ /g, ".")}`;
+            let containerClass = `.${ehContainers[i].classList.toString().replace(/ /g, ".")}`;
 
             containerClasses.push(containerClass);
 

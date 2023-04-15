@@ -257,7 +257,11 @@
     /* ****************************************************** */
     #values {
         position: relative;
-        padding-bottom: 30rem;
+        padding-bottom: 24rem;
+
+        @media (min-width: 500px) {
+            padding-bottom: 30rem;
+        }
 
         // VALUES
         &::before {
@@ -265,18 +269,21 @@
             content: "VALUES";
             font-weight: 600;
             color: $gray;
-            top: 25%;
-            left: -35%;
+            top: 2%;
+            left: -5%;
             width: 100%;
-            transform: rotate(90deg);
-            font-size: 15rem;
+            // transform: rotate(90deg);
+            font-size: 5rem;
             opacity: 0.5;
             line-height: 1;
-            letter-spacing: 1.5rem;
             z-index: 0;
 
             @media (min-width: 500px) {
+                transform: rotate(90deg);
+                letter-spacing: 1.5rem;
+                top: 25%;
                 left: -40%;
+                font-size: 15rem;
             }
 
             @media #{$md-up} {
@@ -636,10 +643,14 @@
         img.logo {
             position: absolute;
             width: 50%;
-            bottom: -6rem;
+            bottom: -4rem;
             right: -2rem;
             opacity: 0.15;
             z-index: 1;
+
+            @media (min-width: 500px) {
+                bottom: -6rem;
+            }
         }
 
         @media #{$md-up} {
@@ -652,13 +663,17 @@
             content: "FEATURED";
             font-weight: 600;
             color: $gray;
-            top: -2.5rem;
+            top: 1.5rem;
             right: 0.5rem;
             width: 100%;
             font-size: 22vw;
             opacity: 0.5;
             z-index: 0;
             line-height: 1;
+
+            @media (min-width: 500px) {
+                top: -2.5rem;
+            }
         }
 
         > .container {

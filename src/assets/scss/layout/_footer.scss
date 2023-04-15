@@ -149,6 +149,7 @@ footer {
     #copyright {
         position: absolute;
         bottom: 1.5rem;
+        z-index: 1;
 
         @media #{$sm-down} {
             font-size: 0.8rem;
