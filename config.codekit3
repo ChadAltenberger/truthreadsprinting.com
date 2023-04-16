@@ -17,6 +17,14 @@
       "oAP" : "\/dist\/.gitignore",
       "oF" : 1
     },
+    "\/.htaccess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/.htaccess",
+      "oF" : 0
+    },
     "\/.vscode" : {
       "ft" : 65536,
       "oA" : 1,
