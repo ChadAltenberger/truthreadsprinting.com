@@ -1,66 +1,26 @@
 .no-webp {
-    #main-index {
+    #mainIndex {
         section {
-            &#intro {
-                background-image: url("../img/index/get-in-the-game/base/xs.png");
-                background-repeat: no-repeat;
-                background-position: 50% 0%;
-                background-size: 576px 35px;
+            &#hero {
+                background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
 
                 @media #{$retina} {
-                    background-image: url("../img/index/get-in-the-game/base/xs@2x.png");
-                    background-repeat: no-repeat;
-                    background-position: 50% 0%;
-                    background-size: 576px 35px;
-                }
-
-                @media #{$sm-up} {
-                    background-image: url("../img/index/get-in-the-game/base/sm.png");
-                    background-repeat: no-repeat;
-                    background-position: 50% 0%;
-                    background-size: 768px 47px;
-
-                    @media #{$retina} {
-                        background-image: url("../img/index/get-in-the-game/base/sm@2x.png");
-                        background-repeat: no-repeat;
-                        background-position: 50% 0%;
-                        background-size: 768px 47px;
-                    }
-                }
-
-                @media #{$md-up} {
-                    background-image: url("../img/index/get-in-the-game/base/lg.png");
-                    background-repeat: no-repeat;
-                    background-position: 50% 0%;
-                    background-size: 992px 61px;
-
-                    @media #{$retina} {
-                        background-image: url("../img/index/get-in-the-game/base/lg@2x.png");
-                        background-repeat: no-repeat;
-                        background-position: 50% 0%;
-                        background-size: 992px 61px;
-                    }
+                    background-image: url(../img/hero-bg-md@2x.jpg);
                 }
 
                 @media #{$lg-up} {
-                    background-image: url("../img/index/get-in-the-game/base/xl.png");
-                    background-repeat: no-repeat;
-                    background-position: 50% 0%;
-                    background-size: 1440px 61px;
+                    background-image: url(../img/hero-bg-lg.jpg);
 
                     @media #{$retina} {
-                        background-image: url("../img/index/get-in-the-game/base/xl@2x.png");
-                        background-repeat: no-repeat;
-                        background-position: 50% 0%;
-                        background-size: 1440px 61px;
+                        background-image: url(../img/hero-bg-lg@2x.jpg);
                     }
                 }
+                @media #{$xl-up} {
+                    background-image: url(../img/hero-bg-xl.jpg);
 
-                @media (min-width: 1441px) {
-                    background-image: url("../img/index/get-in-the-game/base/xxl.png");
-                    background-repeat: no-repeat;
-                    background-position: 50% 0%;
-                    background-size: 2560px 108px;
+                    @media #{$retina} {
+                        background-image: url(../img/hero-bg-xl@2x.jpg);
+                    }
                 }
             }
         }
@@ -68,61 +28,28 @@
 }
 
 .webp {
-    #main-index {
+    #mainIndex {
         section {
-            &#intro {
-                background-image: url("../img/index/full-width-photo/topper/xs.webp"),
-                    url("../img/index/game-changer/xs.jpg");
-                background-repeat: no-repeat, no-repeat;
-                background-position: 50% 100%, 50% 100%;
-                background-size: contain, 576px 515px;
+            &#hero {
+                background: url(../img/hero-bg-md.webp) no-repeat center center / cover;
 
                 @media #{$retina} {
-                    background-image: url("../img/index/full-width-photo/topper/xs.webp"),
-                        url("../img/index/game-changer/xs@2x.jpg");
-                    background-repeat: no-repeat, no-repeat;
-                    background-position: 50% 100%, 50% 100%;
-                    background-size: contain, 576px 515px;
+                    background-image: url(../img/hero-bg-md@2x.webp);
                 }
 
-                @media #{$sm-up} {
-                    background-image: url("../img/index/full-width-photo/topper/xs.webp"),
-                        url("../img/index/game-changer/xl.jpg");
-                    background-repeat: no-repeat, no-repeat;
-                    background-position: 50% 100%, 50% 100%;
-                    background-size: contain, 1440px 796px;
+                @media #{$lg-up} {
+                    background-image: url(../img/hero-bg-lg.webp);
 
                     @media #{$retina} {
-                        background-image: url("../img/index/full-width-photo/topper/xs.webp"),
-                            url("../img/index/game-changer/xl@2x.jpg");
-                        background-repeat: no-repeat, no-repeat;
-                        background-position: 50% 100%, 50% 100%;
-                        background-size: contain, 1440px 796px;
+                        background-image: url(../img/hero-bg-lg@2x.webp);
                     }
                 }
-
-                @media #{$sm-up} {
-                    background-image: url("../img/index/full-width-photo/topper/xl.webp"),
-                        url("../img/index/game-changer/xl.jpg");
-                    background-repeat: no-repeat, no-repeat;
-                    background-position: 50% 100%, 50% 100%;
-                    background-size: contain, 1440px 796px;
+                @media #{$xl-up} {
+                    background-image: url(../img/hero-bg-xl.webp);
 
                     @media #{$retina} {
-                        background-image: url("../img/index/full-width-photo/topper/xl.webp"),
-                            url("../img/index/game-changer/xl@2x.jpg");
-                        background-repeat: no-repeat, no-repeat;
-                        background-position: 50% 100%, 50% 100%;
-                        background-size: contain, 1440px 796px;
+                        background-image: url(../img/hero-bg-xl@2x.webp);
                     }
-                }
-
-                @media (min-width: 1441px) {
-                    background-image: url("../img/index/full-width-photo/topper/xxl.webp"),
-                        url("../img/index/game-changer/xxl.jpg");
-                    background-repeat: no-repeat, no-repeat;
-                    background-position: 50% 100%, 50% 100%;
-                    background-size: contain, 2560px 1222px;
                 }
             }
         }

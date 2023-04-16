@@ -9,7 +9,13 @@ function indexInit() {
 
     function getAndSetWidth() {
         let distanceToLeftEdge = titleLockup.getBoundingClientRect().left; // The distance from the element with a line to left of screen
-        smallBlur.style.width = `${distanceToLeftEdge}px`;
+
+        if (window.innerWidth < 992) {
+            smallBlur.style.width = `calc(${distanceToLeftEdge}px - 2rem)`;
+        } else if (window.innerWidth >= 992 && window.innerWidth < 1400) {
+            smallBlur.style.width = `calc(${distanceToLeftEdge}px - 4rem)`;
+        } else smallBlur.style.width = `${distanceToLeftEdge}px`;
+
         smallBlur.style.backdropFilter = "blur(8px)";
     }
 

@@ -5,27 +5,27 @@
     #hero {
         height: 90vh;
         position: relative;
-        background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
         z-index: 1;
+        // background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
 
-        @media #{$retina} {
-            background-image: url(../img/hero-bg-md@2x.jpg);
-        }
+        // @media #{$retina} {
+        //     background-image: url(../img/hero-bg-md@2x.jpg);
+        // }
 
-        @media #{$lg-up} {
-            background-image: url(../img/hero-bg-lg.jpg);
+        // @media #{$lg-up} {
+        //     background-image: url(../img/hero-bg-lg.jpg);
 
-            @media #{$retina} {
-                background-image: url(../img/hero-bg-lg@2x.jpg);
-            }
-        }
-        @media #{$xl-up} {
-            background-image: url(../img/hero-bg-xl.jpg);
+        //     @media #{$retina} {
+        //         background-image: url(../img/hero-bg-lg@2x.jpg);
+        //     }
+        // }
+        // @media #{$xl-up} {
+        //     background-image: url(../img/hero-bg-xl.jpg);
 
-            @media #{$retina} {
-                background-image: url(../img/hero-bg-xl@2x.jpg);
-            }
-        }
+        //     @media #{$retina} {
+        //         background-image: url(../img/hero-bg-xl@2x.jpg);
+        //     }
+        // }
 
         // Hero image overlay
         &::before {
@@ -56,6 +56,10 @@
 
             @media #{$xl-up} {
                 bottom: 10rem;
+            }
+
+            @media (min-width: 1200px) and (max-width: 1600px) and (max-height: 780px) {
+                bottom: 5rem;
             }
         }
 
@@ -210,6 +214,10 @@
                 height: 10rem;
             }
 
+            @media (min-width: 1200px) and (max-width: 1600px) and (max-height: 780px) {
+                height: 5rem;
+            }
+
             &.animate {
                 opacity: 1;
             }
@@ -354,15 +362,25 @@
                     clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
 
                     max-width: inherit;
-
-                    .creativity-icon {
-                        width: 5rem;
-                    }
                 }
 
                 &#qualityCard {
                     @media #{$lg-up} {
                         top: 50%;
+                    }
+                }
+
+                &#creativityCard {
+                    .creativity-icon {
+                        width: 3.5rem;
+
+                        @media #{$sm-up} {
+                            width: 4rem;
+                        }
+
+                        @media #{$lg-up} {
+                            width: 5rem;
+                        }
                     }
                 }
             }
