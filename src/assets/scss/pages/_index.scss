@@ -6,26 +6,6 @@
         height: 90vh;
         position: relative;
         z-index: 1;
-        // background: url(../img/hero-bg-md.jpg) no-repeat center center / cover;
-
-        // @media #{$retina} {
-        //     background-image: url(../img/hero-bg-md@2x.jpg);
-        // }
-
-        // @media #{$lg-up} {
-        //     background-image: url(../img/hero-bg-lg.jpg);
-
-        //     @media #{$retina} {
-        //         background-image: url(../img/hero-bg-lg@2x.jpg);
-        //     }
-        // }
-        // @media #{$xl-up} {
-        //     background-image: url(../img/hero-bg-xl.jpg);
-
-        //     @media #{$retina} {
-        //         background-image: url(../img/hero-bg-xl@2x.jpg);
-        //     }
-        // }
 
         // Hero image overlay
         &::before {
