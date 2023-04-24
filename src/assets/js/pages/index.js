@@ -1,7 +1,7 @@
 import { globalVariables as gv } from "../base/global-variables.js";
 import Rellax from "rellax";
 import stickySideInit from "../components/sticky-sides.js";
-// import { Fancybox } from "@fancyapps/ui";
+import { Fancybox } from "@fancyapps/ui";
 // import { triggerPopup } from "../components/trigger-popup.js";
 
 export default function indexInit() {

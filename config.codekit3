@@ -586,17 +586,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/src\/assets\/js\/npm\/fancybox.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/assets\/js\/js\/fancybox.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/src\/assets\/js\/pages\/index.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -16019,36 +16008,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/src\/assets\/scss\/npm\/_fancybox.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/assets\/scss\/css\/_fancybox.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/src\/assets\/scss\/npm\/_jquery.fancybox.min.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/assets\/scss\/css\/_jquery.fancybox.min.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/src\/assets\/scss\/pages\/_error.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -16139,7 +16098,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 703896947.32703805
+    "lastBuiltDate" : 704036542.75746095
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
