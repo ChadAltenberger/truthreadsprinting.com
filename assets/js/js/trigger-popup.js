@@ -1,0 +1,1 @@
+export default function triggerPopup(o){window.onload=()=>{let t;new bootstrap.Modal(o).show()}}
