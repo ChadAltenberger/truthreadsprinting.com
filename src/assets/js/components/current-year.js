@@ -1,8 +1,5 @@
-/* ************************************************* */
-/*               CURRENT YEAR IN FOOTER              */
-/* ************************************************* */
-(function () {
-    year = new Date().getYear();
-    if (year < 1900) year += 1900;
+/* =============== CURRENT YEAR IN FOOTER =============== */
+export default function currentYear() {
+    let year = new Date().getFullYear();
     document.getElementById("currentYear").innerHTML = year;
-})();
+}

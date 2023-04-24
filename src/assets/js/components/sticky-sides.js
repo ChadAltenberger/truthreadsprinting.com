@@ -4,7 +4,7 @@
  * Add responsive classes to add sticky-side above breakpoints ("sticky-side-sm", "sticky-side-md", "sticky-side-lg")
  */
 
-function stickySideInit() {
+export default function stickySideInit() {
     let stickySideLeftElements = document.querySelectorAll(".sticky-side-left");
     let stickySideRightElements = document.querySelectorAll(".sticky-side-right");
 
@@ -29,5 +29,3 @@ function stickySideInit() {
     window.addEventListener("load", getStickyContainerAndElements);
     window.addEventListener("resize", getStickyContainerAndElements);
 }
-
-stickySideInit();

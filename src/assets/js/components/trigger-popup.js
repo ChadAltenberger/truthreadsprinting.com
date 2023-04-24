@@ -1,7 +1,5 @@
-/* ************************************************* */
-/*          TRIGGER POPUP MODAL ON PAGE LOAD         */
-/* ************************************************* */
-function triggerPopup(modalId) {
+/* ========== TRIGGER POPUP MODAL ON PAGE LOAD ========== */
+export default function triggerPopup(modalId) {
     window.onload = () => {
         let popup = new bootstrap.Modal(modalId);
 

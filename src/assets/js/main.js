@@ -1,48 +1,28 @@
-// Framework
-// @codekit-prepend "../../../node_modules/jquery/dist/jquery.min.js";
-// @codekit-prepend "../../../node_modules/popper.js/dist/umd/popper.min.js";
-// "base/popper.min.js";
-// @codekit-prepend "base/modernizr-webp.js";
+/* ======================== BASE ======================== */
+import ie10 from "./base/ie10-viewport-bug-workaround.js";
+ie10();
+
+import modernizrInit from "./base/modernizr-webp.js";
+modernizrInit();
 
 // Bootstrap - not using full js bundle, see below
-// @codekit-prepend "../../../node_modules/bootstrap/dist/js/bootstrap.js";
+//  "../../../node_modules/bootstrap/dist/js/bootstrap.js";
 
-// Bootstrap functionality components
-// "../../../node_modules/bootstrap/js/src/alert.js";
-// "../../../node_modules/bootstrap/js/src/base-component.js";
-// "../../../node_modules/bootstrap/js/src/button.js";
-// "../../../node_modules/bootstrap/js/src/carousel.js";
-// "../../../node_modules/bootstrap/js/src/collapse.js";
-// "../../../node_modules/bootstrap/js/src/dropdown.js";
-// "../../../node_modules/bootstrap/js/src/modal.js";
-// "../../../node_modules/bootstrap/js/src/offcanvas.js";
-// "../../../node_modules/bootstrap/js/src/popover.js";
-// "../../../node_modules/bootstrap/js/src/scrollspy.js";
-// "../../../node_modules/bootstrap/js/src/tab.js";
-// "../../../node_modules/bootstrap/js/src/toast.js";
-// "../../../node_modules/bootstrap/js/src/tooltip.js";
-
-// AOS js
-// @codekit-prepend "../../../node_modules/aos/dist/aos.js";
+import AOS from "aos";
 AOS.init();
 
-// Fancybox
-// @codekit-prepend "npm/fancybox.js";
-
-// rellax js
-// @codekit-prepend "../../../node_modules/rellax/rellax.min.js";
-
-// @codekit-prepend "base/ie10-viewport-bug-workaround.js";
-
-/* ======================== BASE ======================== */
-// @codekit-prepend "base/global-variables.js";
+// import Popper from "popper.js";
 
 /* ===================== COMPONENTS ===================== */
-// @codekit-prepend "components/navbar.js";
-// @codekit-prepend "components/trigger-popup.js";
-// @codekit-prepend "components/current-year.js";
-// @codekit-prepend "components/eh-elements.js";
-// @codekit-prepend "components/sticky-sides.js";
+import currentYear from "./components/current-year.js";
+currentYear();
 
-/* ==================== PAGE SPECIFIC =================== */
-// @codekit-prepend "pages/index.js";
+import ehElementsInit from "./components/eh-elements.js";
+ehElementsInit();
+
+import navbarInit from "./components/navbar.js";
+navbarInit();
+
+/* ======================== PAGES ======================= */
+import indexInit from "./pages/index.js";
+indexInit();

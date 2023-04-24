@@ -1,1 +1,3 @@
-let pageId = document.querySelector("body").getAttribute("id");
+export const globalVariables = {
+    pageId: document.querySelector("body").getAttribute("id"),
+};

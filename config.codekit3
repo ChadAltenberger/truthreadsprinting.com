@@ -7,7 +7,7 @@
       "uuidString" : "6B737F6C-CD28-43A0-97F0-4038BFAD4133"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34484",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -290,7 +290,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -303,7 +303,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -316,7 +316,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -329,7 +329,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -342,7 +342,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -355,7 +355,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 80,
       "rq" : 75
     },
@@ -569,14 +569,14 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dist\/assets\/js\/js\/trigger-popup.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
     "\/src\/assets\/js\/main.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
@@ -591,7 +591,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dist\/assets\/js\/js\/fancybox.js",
       "oF" : 0,
       "sC" : 3,
@@ -16139,7 +16139,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 703344786.41949904
+    "lastBuiltDate" : 703896947.32703805
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -17653,7 +17653,7 @@
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -17709,7 +17709,10 @@
     "skippedFoldersString" : ".vscode,\/storage\/framework\/sessions,partials,node_modules,_logs,logs,log,lib,.gitignore,_cache,cache",
     "sourceFolderName" : "src",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -17718,36 +17721,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {

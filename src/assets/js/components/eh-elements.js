@@ -4,7 +4,7 @@
  * Add any responsive class to break equal height below breakpoint ('eh-sm', 'eh-md', 'eh-lg', 'eh-xl', 'eh-xxl')
  */
 
-function ehElementsInit() {
+export default function ehElementsInit() {
     let containerClasses = []; // Set empty array to store each container-classList
 
     function getAndSetHeights() {
@@ -70,5 +70,3 @@ function ehElementsInit() {
         }, 100);
     });
 }
-
-ehElementsInit();
