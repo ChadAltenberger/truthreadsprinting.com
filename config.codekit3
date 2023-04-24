@@ -23,12 +23,6 @@
       "oAP" : "\/dist\/.vscode",
       "oF" : 0
     },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist\/dist",
-      "oF" : 0
-    },
     "\/logo.png" : {
       "ft" : 32768,
       "iS" : 648511,
@@ -601,7 +595,7 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/dist\/assets\/lib",
-      "oF" : 0
+      "oF" : 1
     },
     "\/src\/assets\/partials" : {
       "ft" : 65536,
@@ -16008,6 +16002,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/src\/assets\/scss\/npm\/fancybox.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/assets\/css\/fancybox-ck.css",
+      "oF" : 2,
+      "pg" : 0
+    },
     "\/src\/assets\/scss\/pages\/_error.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -16098,7 +16104,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/logo.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 704036542.75746095
+    "lastBuiltDate" : 704040942.86976099
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
